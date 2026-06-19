@@ -1,0 +1,41 @@
+{
+  "cycle": 0,
+  "collected_on": "2026-06-19",
+  "review_due": "2026-06-23",
+  "instructions": "For each source set decision to 'approve' or 'reject'. Note any edits to summary/quote/theme. Then the white paper + keynote regenerate from approved sources and the site rebuilds.",
+  "pending_sources": [
+    {"id": "cb-001", "publisher": "commercetools", "decision": "pending"},
+    {"id": "cb-002", "publisher": "BCG", "decision": "pending"},
+    {"id": "cb-003", "publisher": "eMarketer", "decision": "pending"},
+    {"id": "cb-004", "publisher": "Ekamoira", "decision": "pending"},
+    {"id": "cb-005", "publisher": "Bain & Company", "decision": "pending"},
+    {"id": "cb-006", "publisher": "eMarketer", "decision": "pending"},
+    {"id": "br-001", "publisher": "Bazaarvoice", "decision": "pending"},
+    {"id": "br-002", "publisher": "Sia Partners", "decision": "pending"},
+    {"id": "br-003", "publisher": "McKinsey & Company", "decision": "pending"},
+    {"id": "br-004", "publisher": "Accenture Song", "decision": "pending"},
+    {"id": "br-005", "publisher": "Harvard Business Review", "decision": "pending"},
+    {"id": "br-006", "publisher": "PwC", "decision": "pending"},
+    {"id": "br-007", "publisher": "McKinsey & Company", "decision": "pending"},
+    {"id": "rt-001", "publisher": "McKinsey & Company", "decision": "pending"},
+    {"id": "rt-002", "publisher": "Bain & Company", "decision": "pending"},
+    {"id": "rt-003", "publisher": "Shopify", "decision": "pending"},
+    {"id": "rt-004", "publisher": "Forrester", "decision": "pending"},
+    {"id": "rt-005", "publisher": "Stellagent", "decision": "pending"},
+    {"id": "tc-001", "publisher": "OpenAI", "decision": "pending"},
+    {"id": "tc-002", "publisher": "Stripe", "decision": "pending"},
+    {"id": "tc-003", "publisher": "Visa", "decision": "pending"},
+    {"id": "tc-004", "publisher": "Digital Commerce 360", "decision": "pending"},
+    {"id": "tc-005", "publisher": "Adyen", "decision": "pending"},
+    {"id": "tc-006", "publisher": "TechInformed", "decision": "pending"},
+    {"id": "rg-001", "publisher": "European Business Magazine", "decision": "pending"},
+    {"id": "rg-002", "publisher": "TLT LLP", "decision": "pending"},
+    {"id": "rg-003", "publisher": "National Law Review", "decision": "pending"},
+    {"id": "rg-004", "publisher": "Center for Data Innovation", "decision": "pending"},
+    {"id": "rg-005", "publisher": "Edgar, Dunn & Company", "decision": "pending"}
+  ],
+  "major_changes_to_approve": [
+    "Publish white paper v0.1 (currently DRAFT)",
+    "Publish keynote v0.1 outline (currently DRAFT)"
+  ]
+}

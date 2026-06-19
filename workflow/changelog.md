@@ -8,4 +8,6 @@
 - Watch-source **Mollie** returned nothing verifiable yet; kept on watchlist.
 - **Next:** first approval review scheduled for **Tue 23 Jun 2026** → approve sources → publish v1.
 
+- 2026-06-19 addendum: added 8 user-requested sources (Microsoft, Gartner x2, Morgan Stanley, Similarweb-data via Elogic, Akamai AI Brand Presence x2) ahead of the first review.
+
 <!-- New cycles are appended below this line -->

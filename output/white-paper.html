@@ -1,104 +1,130 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>White Paper — How to Sell to an Agent</title>
+<link rel="stylesheet" href="assets/portal.css">
 <style>
-  :root{--bg:#0b0e14;--panel:#141a24;--ink:#e8edf4;--muted:#94a3b8;--line:#26303f;--accent:#5b8cff;--accent2:#37e0a6;--warn:#ffb454}
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 Georgia,"Times New Roman",serif}
-  a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
-  .wrap{max-width:820px;margin:0 auto;padding:0 22px}
-  header.top{border-bottom:1px solid var(--line);font-family:-apple-system,Segoe UI,Roboto,sans-serif}
-  .brand{display:flex;justify-content:space-between;align-items:center;padding:18px 0;flex-wrap:wrap;gap:10px}
-  .logo{font-weight:700}.logo span{color:var(--accent2)}
-  nav a{color:var(--muted);margin-left:18px;font-size:14px}nav a:hover{color:var(--ink)}
-  .draft{background:var(--warn);color:#3a2600;font-family:-apple-system,Segoe UI,sans-serif;text-align:center;font-size:13px;font-weight:700;padding:8px}
-  article{padding:42px 0 70px}
-  h1{font-size:36px;line-height:1.2;margin:0 0 6px;letter-spacing:-.5px}
-  .sub{font-family:-apple-system,Segoe UI,sans-serif;color:var(--muted);font-size:16px;margin-bottom:30px}
-  h2{font-size:25px;margin:42px 0 10px;border-bottom:1px solid var(--line);padding-bottom:8px}
-  h3{font-size:19px;margin:28px 0 6px;color:var(--accent2);font-family:-apple-system,Segoe UI,sans-serif}
-  p{margin:14px 0}
+  .paper{max-width:840px;margin:0 auto;padding:0 22px}
+  article{padding:30px 0 70px;font-family:Georgia,"Times New Roman",serif;font-size:17px;line-height:1.75}
+  article h1{font-size:34px;line-height:1.15;margin:0 0 6px;font-family:-apple-system,Segoe UI,sans-serif}
+  article .sub{font-family:-apple-system,Segoe UI,sans-serif;color:var(--muted);font-size:16px;margin-bottom:26px}
+  article h2{font-size:24px;margin:40px 0 8px;border-bottom:1px solid var(--line);padding-bottom:8px;font-family:-apple-system,Segoe UI,sans-serif}
+  article h3{font-size:18px;margin:24px 0 4px;color:var(--accent2);font-family:-apple-system,Segoe UI,sans-serif}
+  article p{margin:13px 0}
   blockquote{border-left:3px solid var(--accent2);margin:18px 0;padding:6px 18px;color:var(--ink);font-style:italic;background:var(--panel)}
-  cite{display:block;font-style:normal;font-size:13px;color:var(--muted);font-family:-apple-system,Segoe UI,sans-serif;margin-top:6px}
-  .callout{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:10px;padding:16px 20px;margin:22px 0;font-family:-apple-system,Segoe UI,sans-serif;font-size:15px}
+  blockquote cite{display:block;font-style:normal;font-size:13px;color:var(--muted);font-family:-apple-system,Segoe UI,sans-serif;margin-top:6px}
+  .callout{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:10px;padding:16px 20px;margin:22px 0;font-family:-apple-system,Segoe UI,sans-serif;font-size:15px;line-height:1.6}
   .toc{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 22px;font-family:-apple-system,Segoe UI,sans-serif;font-size:15px}
   .toc a{display:block;color:var(--muted);padding:3px 0}.toc a:hover{color:var(--ink)}
-  table{width:100%;border-collapse:collapse;font-family:-apple-system,Segoe UI,sans-serif;font-size:14px;margin:18px 0}
-  th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
-  th{background:var(--panel);color:var(--accent2)}
-  footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px;padding:24px 0 50px;font-family:-apple-system,Segoe UI,sans-serif}
+  article table.matrix{font-family:-apple-system,Segoe UI,sans-serif}
 </style>
 </head>
 <body>
 <header class="top"><div class="wrap brand">
   <div class="logo">howtoselltoanagent<span>.com</span></div>
-  <nav class="main"><a href="index.html">Home</a><a href="changing-today.html">What&#39;s Changing</a><a href="keynote.html">Keynote</a><a href="white-paper.html" class="active">White Paper</a><a href="sources.html">Sources</a></nav>
+  <nav class="main">
+    <a href="index.html">Home</a>
+    <a href="changing-today.html">What&#39;s Changing</a>
+    <a href="keynote.html">Keynote</a>
+    <a href="white-paper.html" class="active">White Paper</a>
+    <a href="sources.html">Sources</a>
+  </nav>
 </div></header>
-<div class="draft">DRAFT v0.1 — generated from collected sources · pending your approval at the 23 Jun 2026 review · not yet published</div>
+<div class="draft">DRAFT v0.3 — blended structure for your review · not yet published</div>
 
-<div class="wrap"><article>
+<div class="paper"><article>
   <h1>How to Sell to an Agent</h1>
-  <div class="sub">Rethinking marketing's laws when an AI agent — not a human — makes the purchase decision</div>
+  <div class="sub">How agentic commerce changes buying behaviour, and how brands, retailers and service businesses win</div>
 
   <div class="toc">
     <strong>Contents</strong>
-    <a href="#s1">1. The foundation: Sharp's laws and the assumption underneath them</a>
-    <a href="#s2">2. Consumer behaviour in the agent era</a>
-    <a href="#s3">3. Brands: from mental availability to machine legibility</a>
-    <a href="#s4">4. Retail &amp; fulfilment: the new shelf is an answer surface</a>
-    <a href="#s5">5. The rails: payments, identity and trust</a>
-    <a href="#s6">6. Regulation: the rulebook written for humans</a>
-    <a href="#s7">7. What winning looks like</a>
+    <a href="#es">Executive Summary</a>
+    <a href="#rise">1. The Rise of Agentic Commerce</a>
+    <a href="#today">2. What Is Changing Today</a>
+    <a href="#behaviour">3. How Buying Behaviour Is Changing</a>
+    <a href="#winners">4. How Winners Will Win</a>
+    <a href="#product">5. Implications for Product Businesses</a>
+    <a href="#service">6. Implications for Service Businesses</a>
+    <a href="#functional">7. Functional Implications</a>
+    <a href="#risk">8. Risk, Regulation &amp; Trust</a>
+    <a href="#playbooks">9. 30 / 60 / 90 Day Playbooks</a>
+    <a href="#sources">Sources</a>
   </div>
 
-  <h2 id="s1">1. The foundation: Sharp's laws and the assumption underneath them</h2>
-  <p>Byron Sharp's <em>How Brands Grow</em> reduced a century of marketing to two empirical jobs: build <strong>physical availability</strong> (be easy to find and buy, everywhere the category is bought) and <strong>mental availability</strong> (be easy to bring to mind, through distinctive assets and broad, emotional reach). Brands grow mainly by reaching light buyers and being the easy, salient choice in the moment.</p>
-  <p>Every one of those mechanisms — distinctive assets, memory structures, mental shortcuts, the "available in the moment" nudge — is engineered for a <strong>human nervous system</strong> making a fast, low-attention decision. That assumption held for a hundred years. It is now, for a growing share of transactions, false.</p>
-  <div class="callout">The central question of this paper: when the chooser is an agent, does mental availability still do any work — or does it collapse into <strong>structured-data availability, feed quality and machine-readable trust</strong>?</div>
+  <h2 id="es">Executive Summary</h2>
+  <p>For a century, brands grew by following Byron Sharp&#39;s two laws: <strong>physical availability</strong> (be easy to find and buy) and <strong>mental availability</strong> (be easy to bring to mind). Both assume a human makes the choice. Agentic commerce breaks that assumption: increasingly, an AI agent researches, compares and buys on the consumer&#39;s behalf.</p>
+  <p>The shift is already measurable. ChatGPT reached roughly 900 million weekly users by early 2026; the share of consumers using generative AI to shop rose from 38% (2024) to 51% (2025); AI-driven retail referrals grew over 300% in 2025; and around two-thirds of Google searches now end without a click. McKinsey sizes the opportunity at up to $1 trillion of orchestrated US retail revenue and $3&ndash;5 trillion globally by 2030.</p>
+  <div class="callout"><strong>The argument in one line:</strong> physical availability relocates to feeds, APIs and protocols; mental availability gives way to structured-data availability, feed quality and machine-readable trust. Winners serve two customers at once &mdash; the human who decides whether to delegate, and the agent that executes the choice.</div>
 
-  <h2 id="s2">2. Consumer behaviour in the agent era</h2>
-  <p>Delegation is already underway, and it is partial rather than total. Roughly 30–45% of US consumers already use generative AI for product research and comparison, yet about half remain cautious about letting an agent complete a purchase end-to-end.</p>
-  <blockquote>around half of shoppers still say they are cautious about letting AI agents autonomously handle purchases from start to finish.<cite>Bain &amp; Company, "Agentic AI poised to disrupt retail" (2025)</cite></blockquote>
-  <p>The pattern is a gradient, not a switch: consumers delegate research first, comparison next, and full autonomous checkout last — and they delegate it earliest in low-emotion, high-repeat categories (replenishment, commodities) and latest in identity-laden ones (luxury, fashion). Sharp's laws weaken fastest exactly where they always mattered least: the boring, habitual basket.</p>
+  <h2 id="rise">1. The Rise of Agentic Commerce</h2>
+  <p>Agentic commerce is the model in which an AI agent handles the purchase journey &mdash; translating intent, weighing constraints and completing transactions within boundaries the consumer sets.</p>
+  <blockquote>For 25 years we built catalogs for humans scrolling through filters. Now AI agents translate intent, weigh constraints, and make commitments on behalf of users.<cite>The Fold (Agentic Commerce, Inc.)</cite></blockquote>
+  <h3>The rails arrived faster than anyone expected</h3>
+  <p>Through 2025&ndash;26 the plumbing went live: OpenAI and Stripe&#39;s open <strong>Agentic Commerce Protocol</strong> with Instant Checkout; <strong>Visa Intelligent Commerce</strong> (and a single integration spanning four agent protocols, with Akamai supplying bot and behaviour intelligence); <strong>Mastercard Agent Pay</strong>; Google&#39;s <strong>Agent Payments Protocol (AP2)</strong>; and <strong>Adyen Agentic</strong>, whose &ldquo;Agentic Feed&rdquo; is, in effect, how a brand&#39;s catalogue is translated for machines. The new physical availability is API + feed + protocol, not pallet + shelf.</p>
+  <h3>Big, and disputed, numbers</h3>
+  <p>Analysts disagree on size but agree on direction: McKinsey, up to $1T US and $3&ndash;5T globally by 2030; Bain, $300&ndash;500B of US agentic commerce (15&ndash;25% of e-commerce); Morgan Stanley, $190&ndash;385B; BCG, $1.3T of influenced spend; and Gartner, more than $15 trillion of B2B purchasing intermediated by agents by 2028.</p>
 
-  <h2 id="s3">3. Brands: from mental availability to machine legibility</h2>
-  <p>The most important behavioural claim in the emerging literature is that agents do not carry the cognitive biases that mental availability exploits.</p>
-  <blockquote>AI agents are immune to nostalgia.<cite>Bazaarvoice, "The rise of agentic shopping" (2025)</cite></blockquote>
-  <blockquote>AI agents prioritize the specific parameters of a user's prompt, requiring granular, attribute-level data rather than broad, mass-appeal marketing claims.<cite>Sia Partners, "The Era of Agentic Commerce" (2025)</cite></blockquote>
-  <p>If true, the mental side of Sharp's model does not disappear so much as <strong>change owner</strong>. The agent becomes the carrier of "salience," and it is swayed not by a jingle but by clean, structured, verifiable product data and trusted signals. Distinctive assets become machine-readable attributes; brand reputation becomes review corpora and structured trust signals.</p>
-  <div class="callout"><strong>Working hypothesis for the keynote:</strong> Physical availability survives almost intact (it just relocates to feeds, APIs and protocols). Mental availability <em>bifurcates</em>: it still matters for the human who sets the goal and trusts the brand enough to delegate to it — but it is near-worthless against the agent doing the in-basket comparison.</p></div>
+  <h2 id="today">2. What Is Changing Today</h2>
+  <p>This is not a forecast. Adoption of ChatGPT, Gemini, Perplexity and Claude has compounded; AI-assisted search and AI-generated recommendations are mainstream; and shopping through AI assistants is live (ChatGPT Instant Checkout, Microsoft Copilot Checkout). Meanwhile traditional discovery erodes: zero-click behaviour dominates and publisher search traffic fell about a third in the year to November 2025. See the <a href="changing-today.html">live dashboard</a> for the three trend lines.</p>
 
-  <h2 id="s4">4. Retail &amp; fulfilment: the new shelf is an answer surface</h2>
-  <p>Bain segments the field into three agent types — third-party "objective" agents (ChatGPT, Perplexity), on-site retailer agents, and off-site retailer agents — and warns that the third-party agents pose the greatest disintermediation threat. The "shelf" moves from the aisle and the retail-media banner to the agent's answer, and whoever owns that surface owns the customer relationship.</p>
-  <table>
+  <h2 id="behaviour">3. How Buying Behaviour Is Changing</h2>
+  <p>Buying journeys evolve along a gradient: <strong>human-only &rarr; human + AI &rarr; AI-assisted &rarr; agent-driven &rarr; autonomous purchasing.</strong> Delegation is partial and trust-gated: consumers hand over research first, comparison next, and unsupervised checkout last.</p>
+  <blockquote>Around half of shoppers still say they are cautious about letting AI agents autonomously handle purchases from start to finish.<cite>Bain &amp; Company (2025)</cite></blockquote>
+  <p>Delegation arrives earliest in low-emotion, high-repeat categories (replenishment, commodities, groceries and CPG) and latest in identity-laden ones (luxury, fashion). Sharp&#39;s laws weaken fastest exactly where they always mattered least: the habitual basket.</p>
+
+  <h2 id="winners">4. How Winners Will Win</h2>
+  <p>The decisive behavioural claim is that agents do not carry the cognitive biases mental availability exploits.</p>
+  <blockquote>AI agents are immune to nostalgia.<cite>Bazaarvoice (2025)</cite></blockquote>
+  <p>So mental availability does not vanish &mdash; it <strong>bifurcates</strong>. It still matters for the human who sets the goal and trusts the brand enough to delegate to it; but against the agent doing the in-basket comparison it is near-worthless. The agent becomes the carrier of &ldquo;salience,&rdquo; swayed not by a jingle but by clean, structured, verifiable data and machine-readable trust.</p>
+  <table class="matrix">
     <tr><th>Old rule (human shopper)</th><th>New rule (agent shopper)</th></tr>
-    <tr><td>Win the shelf &amp; retail-media placement</td><td>Win the answer / be in the agent's consideration set</td></tr>
+    <tr><td>Win the shelf &amp; retail-media placement</td><td>Win the answer / be in the agent&#39;s consideration set</td></tr>
     <tr><td>Distinctive assets for memory</td><td>Structured attributes for machine matching</td></tr>
     <tr><td>Brand salience &amp; emotional reach</td><td>Verifiable trust signals &amp; review corpora</td></tr>
     <tr><td>Be easy to buy (distribution)</td><td>Be transactable by an agent (feeds, APIs, protocols)</td></tr>
   </table>
+  <h3>Four moves</h3>
+  <p><strong>1. Serve two customers</strong> &mdash; the human who decides whether to delegate, and the agent that executes. <strong>2. Treat your feed as your flagship store</strong> &mdash; structured, accurate, attribute-level data is the new distribution. <strong>3. Build machine-legible trust</strong> &mdash; reviews, verifiable claims and protocol-level identity become brand equity. <strong>4. Win Generative Engine Optimisation</strong> &mdash; be discoverable and citable inside the agent&#39;s answer.</p>
 
-  <h2 id="s5">5. The rails: payments, identity and trust</h2>
-  <p>The infrastructure layer matured remarkably fast in 2025–26. OpenAI and Stripe released the open <strong>Agentic Commerce Protocol</strong> with Instant Checkout; Visa launched <strong>Intelligent Commerce</strong> (and a single "Connect" integration spanning four agent protocols, with Akamai supplying bot/behaviour intelligence); Mastercard shipped <strong>Agent Pay</strong>; Google released the <strong>Agent Payments Protocol (AP2)</strong>; and Adyen launched <strong>Adyen Agentic</strong> with an "Agentic Feed" that is, in effect, how a brand's catalogue is translated for machines.</p>
-  <blockquote>If a merchant already processes payments with Stripe, they can enable agentic payments in as little as one line of code.<cite>OpenAI, "Buy it in ChatGPT" (29 Sep 2025)</cite></blockquote>
-  <p>For an FC or retailer, this is the new physical availability: not "is my product on the shelf" but "is my product a clean line item an agent can discover, trust and check out in one call."</p>
+  <h2 id="product">5. Implications for Product Businesses</h2>
+  <h3>FMCG (e.g. P&amp;G, Unilever)</h3>
+  <p>The battle moves into the recommendation algorithm and the replenishment loop. Shelf visibility becomes feed visibility; subscription and auto-replenishment become the default basket; brand power is increasingly expressed as data power &mdash; the quality of feeds, reviews and verifiable claims an agent can read.</p>
+  <h3>Durable Goods (automotive, electronics, appliances)</h3>
+  <p>Comparison and configuration agents do the spec work a showroom and brochure used to win. Ecosystems and lock-in shape which options an agent surfaces, and service revenue becomes the durable margin once the hardware decision is commoditised.</p>
 
-  <h2 id="s6">6. Regulation: the rulebook written for humans</h2>
-  <p>The literal "rules of the game" are unsettled. No jurisdiction yet regulates agentic commerce specifically, and human-era frameworks create friction rather than clarity.</p>
-  <blockquote>when an AI agent makes an unauthorised or harmful purchase, who is liable — the consumer, the AI provider, the merchant or the platform?<cite>European Business Magazine (2025)</cite></blockquote>
-  <p>Manipulation cuts both ways: the same agent that is immune to nostalgia can be gamed through its data inputs (one analysis cites a ~25% manipulation vulnerability rate). Persuasion, the soft core of mental availability, reappears as an <strong>attack surface</strong> to be governed rather than a lever to be pulled.</p>
+  <h2 id="service">6. Implications for Service Businesses</h2>
+  <h3>Travel</h3>
+  <p>AI trip planners and dynamic packaging move the battle to agent-to-agent booking; suppliers compete on machine-readable availability, price and terms.</p>
+  <h3>Insurance</h3>
+  <p>AI brokers and product-comparison agents commoditise discovery; claims automation reshapes the cost base. Clarity and verifiable terms beat brand familiarity.</p>
+  <h3>Banking &amp; Wealth</h3>
+  <p>Personal finance agents drive automated switching and advice; loyalty erodes when an agent continuously shops the market on the customer&#39;s behalf.</p>
 
-  <h2 id="s7">7. What winning looks like</h2>
-  <p>Provisional conclusions, to be pressure-tested as the source base grows:</p>
-  <p><strong>1. Serve two customers.</strong> Every brand now markets to a human (who decides whether to trust and delegate) and to an agent (who executes the comparison). Sharp's laws still win the first; data and trust win the second.<br>
-  <strong>2. Treat your feed as your new flagship store.</strong> Structured, accurate, attribute-level product data is the agent-era equivalent of distribution and shelf presence.<br>
-  <strong>3. Build machine-legible trust.</strong> Reviews, verifiable claims and protocol-level identity become the new brand equity.<br>
-  <strong>4. Defend the relationship.</strong> Third-party agents threaten to disintermediate; brands and retailers must decide where to meet the agent and where to own it.</p>
+  <h2 id="functional">7. Functional Implications</h2>
+  <table class="matrix">
+    <tr><td>CEO</td><td>Own the strategic question and exposure; decide where to own the relationship versus meet the third-party agent.</td></tr>
+    <tr><td>CIO</td><td>APIs, MCP, agent identity, security, agent-readiness, architecture.</td></tr>
+    <tr><td>CFO</td><td>New economics, shifting revenue pools, agent-era metrics, investment priorities.</td></tr>
+    <tr><td>CMO</td><td>Generative Engine Optimisation, brand discoverability, zero-click marketing, content architecture.</td></tr>
+    <tr><td>CCO</td><td>Commercial model, pricing, channel conflict, the agent-era sales model.</td></tr>
+  </table>
 
-  <footer>DRAFT generated from <a href="index.html">29 collected sources</a>. Figures and quotes to be verified at the 23 Jun 2026 approval review before publication. © 2026 howtoselltoanagent.com</footer>
+  <h2 id="risk">8. Risk, Regulation &amp; Trust</h2>
+  <p>Trust is the gate on the whole market, and the rulebook was written for humans. No jurisdiction yet regulates agentic commerce specifically, and existing frameworks (EU AI Act, PSD3, GDPR, the Consumer Rights Directive) overlap without resolving the central question.</p>
+  <blockquote>When an AI agent makes an unauthorised or harmful purchase, who is liable &mdash; the consumer, the AI provider, the merchant or the platform?<cite>European Business Magazine (2025)</cite></blockquote>
+  <p>Manipulation cuts both ways: the agent that is immune to nostalgia can still be gamed through its data inputs (one analysis cites a ~25% manipulation vulnerability rate), and financial institutions expect agent-linked fraud to rise. Persuasion &mdash; the soft core of mental availability &mdash; reappears as an attack surface to be governed rather than a lever to be pulled. Whoever makes agents safe to delegate to unlocks the spend.</p>
+
+  <h2 id="playbooks">9. 30 / 60 / 90 Day Playbooks</h2>
+  <p><strong>First 30 days &mdash; Understand.</strong> Educate leadership, map buying journeys, assess exposure, surface assumptions. Deliverable: an Agentic Commerce Assessment.</p>
+  <p><strong>Days 31&ndash;60 &mdash; Experiment.</strong> Test AI discovery, build APIs, create GEO content, explore use cases. Deliverable: pilot initiatives.</p>
+  <p><strong>Days 61&ndash;90 &mdash; Operationalise.</strong> Define the roadmap, create governance, allocate budget, build capabilities. Deliverable: a 12-month roadmap.</p>
+
+  <h2 id="sources">Sources</h2>
+  <p>This paper is grounded in the curated <a href="sources.html">source library</a> (38 sources and growing), organised by theme and source type. Figures and quotes are to be verified at review before publication.</p>
+
+  <footer style="border:0;padding-top:10px">DRAFT v0.3 &middot; &copy; 2026 howtoselltoanagent.com</footer>
 </article></div>
 </body>
 </html>

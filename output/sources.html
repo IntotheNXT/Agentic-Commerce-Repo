@@ -75,22 +75,16 @@
 <header class="top">
   <div class="wrap brand">
     <div class="logo">howtoselltoanagent<span>.com</span></div>
-    <nav class="main"><a href="index.html">Home</a><a href="changing-today.html">What&#39;s Changing</a><a href="keynote.html">Keynote</a><a href="white-paper.html">White Paper</a><a href="playbooks.html">Playbooks</a><a href="segments.html">Segments</a><a href="functions.html">Functions</a><a href="sources.html" class="active">Sources</a></nav>
+    <nav class="main"><a href="index.html">Home</a><a href="changing-today.html">What&#39;s Changing</a><a href="keynote.html">Keynote</a><a href="white-paper.html">White Paper</a><a href="playbooks.html">Playbooks</a><a href="segments.html">Segments</a><a href="functions.html">Functions</a><a href="sources.html" class="active">Sources</a><a href="mailto:info@intothenxt.com" style="margin-left:10px;padding:6px 13px;border-radius:7px;background:#37e0a6;color:#06241a;font-weight:700">Contact us</a></nav>
   </div>
 </header>
 
 <div class="wrap">
   <section class="hero">
     <h1>When the buyer is an algorithm,<br><em>the rules of the game change.</em></h1>
-    <p class="lead">A living research repository on <b>agentic commerce</b> — tracking how consumer behaviour, brand strategy, retail and fulfilment shift when an AI agent, not a human, makes the purchase decision.</p>
-    <div class="thesis">
-      For decades, brands won by following Byron Sharp's laws: <b>physical availability</b> (be easy to find and buy) and <b>mental availability</b> (be salient, distinctive, top-of-mind). Both assume a <b>human</b> makes the call. This repository asks the question your shelf never had to: <b>what survives when an agent chooses?</b> Does mental availability still matter to a machine that is "immune to nostalgia" — or does it collapse into structured-data availability, feed quality and machine-readable trust?
-    </div>
-    <div class="cta">
-      <a class="btn primary" href="white-paper.html">Read the White Paper</a>
-      <a class="btn ghost" href="keynote.html">View the Keynote</a>
-      <a class="btn ghost" href="#sources">Browse Sources</a>
-    </div>
+    
+    
+    
     <div class="stats" id="heroStats"></div>
   </section>
 
@@ -99,6 +93,8 @@
       <h2>Source Library</h2>
       <div class="count" id="resultCount"></div>
     </div>
+
+    <p style="color:#94a3b8;font-size:14.5px;max-width:840px;margin:-4px 0 20px;line-height:1.6">We continuously collect news about agentic commerce, so this library doubles as a live repository that keeps our <a href="keynote.html" style="color:#5b8cff">keynote</a> and <a href="white-paper.html" style="color:#5b8cff">white paper</a> current. Spot a source we&#39;re missing? <a href="https://github.com/IntotheNXT/Agentic-Commerce-Repo/issues/new" target="_blank" rel="noopener" style="color:#5b8cff">Open a request on GitHub</a> and we&#39;ll review it in the next collection cycle.</p>
 
     <div class="controls">
       <div class="filter-row" id="themeFilters">
@@ -233,7 +229,7 @@ function heroStats(){
   document.getElementById("heroStats").innerHTML=
     '<div><b>'+SOURCES.length+'</b>curated sources</div>'
     +'<div><b>'+themes.size+'</b>themes tracked</div>'
-    +'<div><b>$3–5T</b>projected global agentic commerce by 2030 (McKinsey)</div>';
+    ;
   document.getElementById("footMeta").innerHTML="Last updated "+LATEST_COLLECTED+" · Updated biweekly · howtoselltoanagent.com";
 }
 buildFilters();heroStats();render();

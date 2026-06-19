@@ -10,4 +10,6 @@
 
 - 2026-06-19 addendum: added 8 user-requested sources (Microsoft, Gartner x2, Morgan Stanley, Similarweb-data via Elogic, Akamai AI Brand Presence x2) ahead of the first review.
 
+- 2026-06-19 addendum: added The Fold (agenticcommerce.com) and introduced a new 'website' source type.
+
 <!-- New cycles are appended below this line -->

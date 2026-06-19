@@ -17,7 +17,7 @@ $count   = @($sources).Count
 $compact = ($sources | ConvertTo-Json -Depth 10 -Compress)
 
 # Pages that carry the embedded dataset (between the /*__SOURCES_DATA__*/ ... /*__END__*/ markers)
-$pages = @("index.html")
+$pages = @("sources.html")
 foreach ($page in $pages) {
     $p = Join-Path $outputDir $page
     if (-not (Test-Path $p)) { Write-Host "  skip (missing): $page"; continue }

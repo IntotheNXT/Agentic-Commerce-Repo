@@ -188,6 +188,11 @@
       "id": "tc-008",
       "publisher": "Akamai",
       "decision": "pending"
+    },
+    {
+      "id": "tc-009",
+      "publisher": "Agentic Commerce, Inc. (The Fold / NQOBAX.ai)",
+      "decision": "pending"
     }
   ],
   "major_changes_to_approve": [

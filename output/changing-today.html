@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What Is Changing Today? — How to Sell to an Agent</title>
+<link rel="stylesheet" href="assets/portal.css">
+</head>
+<body>
+<header class="top"><div class="wrap brand">
+  <div class="logo">howtoselltoanagent<span>.com</span></div>
+  <nav class="main">
+    <a href="index.html">Home</a>
+    <a href="changing-today.html" class="active">What&#39;s Changing</a>
+    <a href="keynote.html">Keynote</a>
+    <a href="white-paper.html">White Paper</a>
+    <a href="sources.html">Sources</a>
+  </nav>
+</div></header>
+
+<div class="wrap">
+  <section class="hero" style="padding:40px 0 10px">
+    <div class="eyebrow">Section 3 &middot; The evidence</div>
+    <h1>What Is Changing <em>Today?</em></h1>
+    <p class="lead">Agentic commerce is not a forecast &mdash; it is already emerging. Three dashboards on adoption, shopping influence, and the discovery shift.</p>
+    <div class="stats">
+      <div class="stat"><b>~900M</b><span>ChatGPT weekly users (Feb 2026)</span></div>
+      <div class="stat"><b>+304%</b><span>AI-driven retail referrals in 2025</span></div>
+      <div class="stat"><b>~68%</b><span>Google searches ending with zero clicks (2026)</span></div>
+      <div class="stat"><b>-33%</b><span>publisher search traffic, year to Nov 2025</span></div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="chartcard">
+      <h3>Graph 1 &middot; AI adoption growth</h3>
+      <p class="sub">Active users, 2023 to present. Shows the exponential adoption curve.</p>
+      <div class="legend" id="lg1"></div>
+      <div id="c1"></div>
+      <div class="src">ChatGPT figures are weekly active users; Gemini, Perplexity and Claude are monthly actives. Best-available public estimates &mdash; Sources: OpenAI / Demandsage, Google, market trackers (Similarweb, FatJoe).</div>
+    </div>
+
+    <div class="two">
+      <div class="chartcard">
+        <h3>Graph 2 &middot; Share of shopping journeys using AI</h3>
+        <p class="sub">Consumers using GenAI in the shopping journey.</p>
+        <div class="legend" id="lg2"></div>
+        <div id="c2"></div>
+        <div class="src">Sources: Capital One Shopping; Stord, State of AI in E-Commerce 2026 (2026 figure is stated intent).</div>
+      </div>
+      <div class="chartcard">
+        <h3>Graph 3 &middot; The discovery shift</h3>
+        <p class="sub">AI referrals vs traditional search, indexed to Jan 2025 = 100.</p>
+        <div class="legend" id="lg3"></div>
+        <div id="c3"></div>
+        <div class="src">Sources: Euromonitor (AI referrals +304% in 2025); reporting on publisher search traffic -33% to Nov 2025; SparkToro (zero-click).</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="sec-head"><h2>What the behaviour looks like</h2><p>Two fronts are moving at once.</p></div>
+    <div class="two">
+      <div class="listcard">
+        <h3>Consumer behaviour</h3>
+        <ul>
+          <li>Growth in ChatGPT usage</li>
+          <li>Growth in Perplexity</li>
+          <li>AI-assisted search</li>
+          <li>AI-generated recommendations</li>
+          <li>Shopping through AI assistants</li>
+          <li>Zero-click behaviour</li>
+          <li>Declining traditional search traffic</li>
+        </ul>
+      </div>
+      <div class="listcard">
+        <h3>Enterprise behaviour</h3>
+        <ul>
+          <li>AI procurement agents</li>
+          <li>Customer service agents</li>
+          <li>Personal AI assistants</li>
+        </ul>
+        <p style="color:var(--muted);font-size:13.5px;margin-top:14px">Gartner forecasts AI agents intermediating <b>$15T</b> of B2B purchasing by 2028 &mdash; the enterprise side is moving too.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="sec-head"><h2>In motion</h2><p>Short clips to embed &mdash; placeholders for now.</p></div>
+    <div class="clips">
+      <div class="clip">Clip: ChatGPT Instant Checkout demo</div>
+      <div class="clip">Clip: Perplexity shopping</div>
+      <div class="clip">Clip: Agent-to-agent booking</div>
+      <div class="clip">Clip: Replenishment on autopilot</div>
+    </div>
+  </section>
+</div>
+
+<footer><div class="wrap"><div>Evidence drawn from the <a href="sources.html">source library</a></div><div>howtoselltoanagent.com</div></div></footer>
+
+<script>
+var COL={blue:"#5b8cff",green:"#37e0a6",amber:"#ffb454",pink:"#ff7b9c"};
+function lineChart(id,lgId,cfg){
+  var W=760,H=300,pL=52,pR=18,pT=18,pB=38,pw=W-pL-pR,ph=H-pT-pB;
+  var n=cfg.labels.length, ym=cfg.yMax;
+  function X(i){return pL+pw*(n<2?0:i/(n-1));}
+  function Y(v){return pT+ph*(1-v/ym);}
+  var svg='<svg viewBox="0 0 '+W+' '+H+'" width="100%" preserveAspectRatio="xMidYMid meet" role="img">';
+  for(var g=0;g<=4;g++){var v=ym*g/4;var y=Y(v);
+    svg+='<line class="grid" x1="'+pL+'" y1="'+y+'" x2="'+(W-pR)+'" y2="'+y+'"/>';
+    svg+='<text x="'+(pL-8)+'" y="'+(y+4)+'" text-anchor="end">'+(cfg.fmt?cfg.fmt(v):v)+'</text>';}
+  for(var i=0;i<n;i++){svg+='<text x="'+X(i)+'" y="'+(H-12)+'" text-anchor="middle">'+cfg.labels[i]+'</text>';}
+  cfg.series.forEach(function(s){
+    var pts=s.data.map(function(v,i){return X(i)+","+Y(v);}).join(" ");
+    svg+='<polyline fill="none" stroke="'+s.color+'" stroke-width="2.5" points="'+pts+'"/>';
+    s.data.forEach(function(v,i){svg+='<circle cx="'+X(i)+'" cy="'+Y(v)+'" r="3.5" fill="'+s.color+'"/>';});
+  });
+  svg+='</svg>';
+  document.getElementById(id).innerHTML=svg;
+  if(lgId){document.getElementById(lgId).innerHTML=cfg.series.map(function(s){
+    return '<span><i style="background:'+s.color+'"></i>'+s.name+'</span>';}).join("");}
+}
+lineChart("c1","lg1",{labels:["Late 2023","Mid 2024","2025","Early 2026"],yMax:1000,
+  fmt:function(v){return v+"M";},
+  series:[
+    {name:"ChatGPT",color:COL.blue,data:[100,200,800,900]},
+    {name:"Gemini",color:COL.green,data:[0,90,350,450]},
+    {name:"Perplexity",color:COL.amber,data:[5,10,22,30]},
+    {name:"Claude",color:COL.pink,data:[3,8,18,40]}]});
+lineChart("c2","lg2",{labels:["2024","2025","2026 (intent)"],yMax:100,
+  fmt:function(v){return v+"%";},
+  series:[{name:"Use GenAI to shop",color:COL.green,data:[38,51,80]}]});
+lineChart("c3","lg3",{labels:["Jan 2025","Dec 2025"],yMax:420,
+  series:[
+    {name:"AI-driven referrals",color:COL.green,data:[100,404]},
+    {name:"Traditional search clicks",color:COL.amber,data:[100,67]}]});
+</script>
+</body>
+</html>

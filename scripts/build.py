@@ -9,7 +9,7 @@ import json, re, pathlib, sys
 
 root = pathlib.Path(__file__).resolve().parent.parent
 data_path = root / "sources" / "sources.json"
-index_path = root / "output" / "index.html"
+index_path = root / "output" / "sources.html"
 
 if not data_path.exists():
     sys.exit(f"ERROR: {data_path} not found")
@@ -24,4 +24,4 @@ if not pattern.search(html):
 
 html = pattern.sub(lambda m: "/*__SOURCES_DATA__*/" + compact + "/*__END__*/", html)
 index_path.write_text(html, encoding="utf-8")
-print(f"embedded {len(data)} sources -> output/index.html")
+print(f"embedded {len(data)} sources -> output/sources.html")

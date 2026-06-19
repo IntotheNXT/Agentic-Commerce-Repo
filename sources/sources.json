@@ -622,5 +622,23 @@
     "key_quote": "AI systems don't browse like humans. They parse, summarize, and generate responses, which requires structured, machine-readable content.",
     "relevance_to_sharp": "Direct evidence for the thesis: winning the agent requires machine-readable structured content, the agent-era successor to distinctive brand assets.",
     "status": "collected"
+  },
+  {
+    "id": "tc-009",
+    "title": "The Fold - Agentic Commerce Platform",
+    "url": "https://www.agenticcommerce.com/",
+    "source_type": "website",
+    "themes": [
+      "tech-capability",
+      "brand-strategy",
+      "retailer-impact"
+    ],
+    "date_published": "",
+    "date_collected": "2026-06-19",
+    "publisher": "Agentic Commerce, Inc. (The Fold / NQOBAX.ai)",
+    "summary": "Vendor site for The Fold, a live reasoning substrate for AI agents to make and maintain commerce decisions as prices, inventory and policies change; positions structured, maintainable decision surfaces as core agentic-commerce infrastructure and claims 50%+ of digital commerce will be agent-mediated by 2027.",
+    "key_quote": "For 25 years we built catalogs for humans scrolling through filters. Now AI agents translate intent, weigh constraints, and make commitments on behalf of users.",
+    "relevance_to_sharp": "Crystallises the shift from human-facing catalogs (physical and mental availability) to machine-facing decision surfaces that agents reason over.",
+    "status": "collected"
   }
 ]

@@ -46,4 +46,4 @@ The `output/` folder is fully static and self-contained (data embedded in the HT
 
 ## Notes
 - **Web access:** source collection must run in an environment with WebSearch/WebFetch (the main session has it; isolated subagents in this setup did not). The scheduled job must run somewhere with web access.
-- **Mollie** was requested as a watch-source but returned nothing verifiable on agentic commerce as of 19 Jun 2026 — kept on the watchlist for future cycles.
+- **Mollie** was requested as a watch-source; as of Cycle 0 (19 Jun 2026) nothing verifiable was found. As of Cycle 1 (19 Jun 2026, later collection run) Mollie now has genuinely relevant, verifiable coverage (ACP compatibility for European merchants) — see `tc-c1-04` in `sources.json`.

@@ -14,9 +14,9 @@
 
 <div class="wrap">
   <section class="hero" style="padding:40px 0 10px">
-    <div class="eyebrow">Section 3 &middot; The evidence</div>
+    <div class="eyebrow">The evidence &middot; what is changing today</div>
     <h1>Agentic <em>Trends</em></h1>
-    <p class="lead">Agentic commerce is not a forecast &mdash; it is already emerging. Three dashboards on adoption, shopping influence, and the discovery shift.</p>
+    <p class="lead">Agentic commerce is not a forecast &mdash; it is already emerging. Three dashboards on shopping influence, the discovery shift, and adoption.</p>
     <div class="stats">
       <div class="stat"><b>~900M</b><span>ChatGPT weekly users (Feb 2026)</span></div>
       <div class="stat"><b>+304%</b><span>AI-driven retail referrals in 2025</span></div>
@@ -27,28 +27,27 @@
 
   <section class="block">
     <div class="chartcard">
-      <h3>Graph 1 &middot; AI adoption growth</h3>
+      <h3>Graph 1 &middot; Share of shopping journeys using AI</h3>
+      <p class="sub">Consumers using GenAI in the shopping journey.</p>
+      <div class="legend" id="lg2"></div>
+      <div id="c2"></div>
+      <div class="src">Sources: Capital One Shopping; Stord, State of AI in E-Commerce 2026 (2026 figure is stated intent).</div>
+    </div>
+
+    <div class="chartcard">
+      <h3>Graph 2 &middot; The discovery shift</h3>
+      <p class="sub">AI referrals vs traditional search, indexed to Jan 2025 = 100.</p>
+      <div class="legend" id="lg3"></div>
+      <div id="c3"></div>
+      <div class="src">Sources: Euromonitor (AI referrals +304% in 2025); reporting on publisher search traffic -33% to Nov 2025; SparkToro (zero-click).</div>
+    </div>
+
+    <div class="chartcard">
+      <h3>Graph 3 &middot; AI adoption growth</h3>
       <p class="sub">Active users, 2023 to present. Shows the exponential adoption curve.</p>
       <div class="legend" id="lg1"></div>
       <div id="c1"></div>
       <div class="src">ChatGPT figures are weekly active users; Gemini, Perplexity and Claude are monthly actives. Best-available public estimates &mdash; Sources: OpenAI / Demandsage, Google, market trackers (Similarweb, FatJoe).</div>
-    </div>
-
-    <div class="two">
-      <div class="chartcard">
-        <h3>Graph 2 &middot; Share of shopping journeys using AI</h3>
-        <p class="sub">Consumers using GenAI in the shopping journey.</p>
-        <div class="legend" id="lg2"></div>
-        <div id="c2"></div>
-        <div class="src">Sources: Capital One Shopping; Stord, State of AI in E-Commerce 2026 (2026 figure is stated intent).</div>
-      </div>
-      <div class="chartcard">
-        <h3>Graph 3 &middot; The discovery shift</h3>
-        <p class="sub">AI referrals vs traditional search, indexed to Jan 2025 = 100.</p>
-        <div class="legend" id="lg3"></div>
-        <div id="c3"></div>
-        <div class="src">Sources: Euromonitor (AI referrals +304% in 2025); reporting on publisher search traffic -33% to Nov 2025; SparkToro (zero-click).</div>
-      </div>
     </div>
   </section>
 
@@ -90,7 +89,7 @@
   </section>
 </div>
 
-<footer><div class="wrap"><div>Evidence drawn from the <a href="sources.html">source library</a></div><div>howtoselltoanagent.com</div></div></footer>
+<footer><div class="wrap"><div>Evidence drawn from the <a href="sources.html">source library</a></div><div><a href="mailto:info@intothenxt.com">info@intothenxt.com</a></div></div></footer>
 
 <script>
 var COL={blue:"#5b8cff",green:"#37e0a6",amber:"#ffb454",pink:"#ff7b9c"};
@@ -114,13 +113,6 @@ function lineChart(id,lgId,cfg){
   if(lgId){document.getElementById(lgId).innerHTML=cfg.series.map(function(s){
     return '<span><i style="background:'+s.color+'"></i>'+s.name+'</span>';}).join("");}
 }
-lineChart("c1","lg1",{labels:["Late 2023","Mid 2024","2025","Early 2026"],yMax:1000,
-  fmt:function(v){return v+"M";},
-  series:[
-    {name:"ChatGPT",color:COL.blue,data:[100,200,800,900]},
-    {name:"Gemini",color:COL.green,data:[0,90,350,450]},
-    {name:"Perplexity",color:COL.amber,data:[5,10,22,30]},
-    {name:"Claude",color:COL.pink,data:[3,8,18,40]}]});
 lineChart("c2","lg2",{labels:["2024","2025","2026 (intent)"],yMax:100,
   fmt:function(v){return v+"%";},
   series:[{name:"Use GenAI to shop",color:COL.green,data:[38,51,80]}]});
@@ -128,6 +120,13 @@ lineChart("c3","lg3",{labels:["Jan 2025","Dec 2025"],yMax:420,
   series:[
     {name:"AI-driven referrals",color:COL.green,data:[100,404]},
     {name:"Traditional search clicks",color:COL.amber,data:[100,67]}]});
+lineChart("c1","lg1",{labels:["Late 2023","Mid 2024","2025","Early 2026"],yMax:1000,
+  fmt:function(v){return v+"M";},
+  series:[
+    {name:"ChatGPT",color:COL.blue,data:[100,200,800,900]},
+    {name:"Gemini",color:COL.green,data:[0,90,350,450]},
+    {name:"Perplexity",color:COL.amber,data:[5,10,22,30]},
+    {name:"Claude",color:COL.pink,data:[3,8,18,40]}]});
 </script>
 </body>
 </html>

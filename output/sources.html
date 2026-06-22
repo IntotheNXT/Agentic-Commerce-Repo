@@ -18,8 +18,9 @@
   .wrap{max-width:1180px;margin:0 auto;padding:0 22px}
   header.top{border-bottom:1px solid var(--line);background:var(--bg)}
   .brand{display:flex;align-items:center;justify-content:space-between;padding:14px 0;flex-wrap:wrap;gap:10px}
-  .brand .logo{font-weight:700;letter-spacing:.2px;font-size:17px;display:flex;align-items:center;gap:9px}
+  .brand .logo{font-weight:700;letter-spacing:.2px;font-size:17px;display:flex;align-items:center;gap:9px;color:var(--ink)}
   .brand .logo img{height:32px;display:block}
+  .brand .logo a{color:inherit;text-decoration:none}
   .brand .logo .tld{color:var(--accent2)}
   nav.main a{color:var(--muted);margin-left:20px;font-size:14px;font-weight:500}
   nav.main a:hover{color:var(--ink)}
@@ -75,7 +76,7 @@
 <body>
 <header class="top">
   <div class="wrap brand">
-    <a href="index.html" class="logo"><img src="assets/img/intothenxt-logo.png" alt="IntotheNXT"><span class="domain">howtoselltoanagent<span class="tld">.com</span></span></a>
+    <span class="logo"><a href="https://intothenxt.com" target="_blank" rel="noopener"><img src="assets/img/intothenxt-logo.png" alt="IntotheNXT"></a><a href="index.html" class="domain">howtoselltoanagent<span class="tld">.com</span></a></span>
     <nav class="main"><a href="index.html">Home</a><a href="white-paper.html">White Paper</a><a href="keynote.html">Keynote</a><a href="sources.html" class="active">Sources</a><a href="changing-today.html">Agentic Trends</a><a href="playbooks.html">Playbooks</a><a href="mailto:info@intothenxt.com" class="nav-cta">Contact us</a></nav>
   </div>
 </header>

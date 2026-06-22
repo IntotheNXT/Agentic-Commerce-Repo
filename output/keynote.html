@@ -13,7 +13,7 @@
   .slide h2{font-size:25px;margin:8px 0 12px}
   .slide h2 em{color:var(--accent2);font-style:normal}
   .slide ul{margin:6px 0 0;padding-left:20px}.slide li{margin:7px 0}
-  .slide .notes{background:#0e131c;border-top:1px solid var(--line);padding:13px 28px;font-size:13.5px;color:var(--muted)}
+  .slide .notes{background:var(--panel2);border-top:1px solid var(--line);padding:13px 28px;font-size:13.5px;color:var(--muted)}
   .slide .notes b{color:var(--warn)}
   .slide .src{font-size:12px;color:var(--muted);margin-top:10px}
   .kpis{display:flex;gap:24px;flex-wrap:wrap;margin:4px 0}
@@ -23,10 +23,10 @@
 </head>
 <body>
 <header class="top"><div class="wrap brand">
-  <div class="logo">howtoselltoanagent<span>.com</span></div>
-  <nav class="main"><a href="index.html">Home</a><a href="changing-today.html">Agentic Trends</a><a href="keynote.html" class="active">Keynote</a><a href="white-paper.html">White Paper</a><a href="playbooks.html">Playbooks</a><a href="sources.html">Sources</a><a href="mailto:info@intothenxt.com" style="margin-left:10px;padding:6px 13px;border-radius:7px;background:#37e0a6;color:#06241a;font-weight:700">Contact us</a></nav>
+  <a href="index.html" class="logo"><img src="assets/img/intothenxt-logo.png" alt="IntotheNXT"><span class="domain">howtoselltoanagent<span class="tld">.com</span></span></a>
+  <nav class="main"><a href="index.html">Home</a><a href="white-paper.html">White Paper</a><a href="keynote.html" class="active">Keynote</a><a href="sources.html">Sources</a><a href="changing-today.html">Agentic Trends</a><a href="playbooks.html">Playbooks</a><a href="mailto:info@intothenxt.com" class="nav-cta">Contact us</a></nav>
 </div></header>
-<div class="draft">DRAFT v0.2 &mdash; blended structure for your review &middot; not yet published</div>
+<div class="draft">DRAFT v0.4 &mdash; old-rules-backfire slide added, journey folded into slide 2 &middot; not yet published</div>
 
 <div class="wrap">
   <div class="hero" style="padding:34px 0 6px">
@@ -49,13 +49,13 @@
       <div class="num">Slide 2 &middot; Why now</div>
       <h2>This is <em>already happening</em></h2>
       <div class="kpis">
-        <div><b>~900M</b><span>ChatGPT weekly users, Feb 2026 (was ~100M late 2023)</span></div>
         <div><b>38&rarr;51%</b><span>consumers using GenAI to shop, 2024&rarr;2025</span></div>
         <div><b>~80%</b><span>intend to use GenAI to shop in 2026</span></div>
-        <div><b>+304%</b><span>AI-driven retail referrals in 2025</span></div>
+        <div><b>+304%</b><span>growth in AI-driven retail referral traffic in 2025</span></div>
+        <div><b>~70%</b><span>shoppers comfortable letting an agent purchase on their behalf</span></div>
       </div>
-      <div class="src">Sources: OpenAI / Demandsage; Capital One Shopping; Stord; Euromonitor / Adobe Analytics</div>
-    </div><div class="notes"><b>Say:</b> Adoption is not linear, it is exponential, and it has crossed from research into transaction. The question is no longer if, but how fast and in which categories first.</div></div>
+      <div class="src">Sources: Capital One Shopping; Stord; Euromonitor / Adobe Analytics; Ekamoira, 2026</div>
+    </div><div class="notes"><b>Say:</b> Adoption is not linear, it is exponential, and it has crossed from research into transaction. The question is no longer if, but how fast and in which categories first. Shoppers are not waiting for permission either &mdash; roughly seven in ten are already comfortable letting an agent buy on their behalf. Buying journeys move through five stages: human-only, human-plus-AI research, AI-recommends-and-human-approves, agent-driven transactions within limits, and fully autonomous agent buying and replenishment. We are mid-curve: replenishment and commodities are already agent-driven, identity-laden categories lag, and the curve moves left-to-right category by category, not all at once.</div></div>
 
     <div class="slide"><div class="body">
       <div class="num">Slide 3 &middot; The foundation</div>
@@ -68,20 +68,15 @@
     </div><div class="notes"><b>Say:</b> Sharp&#39;s laws are the best empirical model marketing has. But they are laws of human memory and attention. Hold that assumption up to the light.</div></div>
 
     <div class="slide"><div class="body">
-      <div class="num">Slide 4 &middot; The journey</div>
-      <h2>How buying journeys are changing</h2>
-      <div class="journey">
-        <div class="jstep"><div class="n">01</div><h4>Human-only</h4><p>Browse, recall, choose, buy.</p></div>
-        <span class="jarrow">&rarr;</span>
-        <div class="jstep"><div class="n">02</div><h4>Human + AI</h4><p>AI assists research and comparison.</p></div>
-        <span class="jarrow">&rarr;</span>
-        <div class="jstep"><div class="n">03</div><h4>AI-assisted</h4><p>AI recommends; human approves.</p></div>
-        <span class="jarrow">&rarr;</span>
-        <div class="jstep"><div class="n">04</div><h4>Agent-driven</h4><p>Agent shortlists and transacts within limits.</p></div>
-        <span class="jarrow">&rarr;</span>
-        <div class="jstep"><div class="n">05</div><h4>Autonomous</h4><p>Agent buys and replenishes unsupervised.</p></div>
-      </div>
-    </div><div class="notes"><b>Say:</b> We are mid-curve. Replenishment and commodities are already agent-driven; identity-laden categories lag. The curve moves left-to-right category by category, not all at once.</div></div>
+      <div class="num">Slide 4 &middot; Old rules don&#39;t apply</div>
+      <h2>What works on <em>humans</em> can <em>backfire</em> on agents</h2>
+      <ul>
+        <li>The classic e-commerce persuasion toolkit &mdash; scarcity messages, countdown timers, vouchers, bundling, strike-through pricing &mdash; tested directly against agent decision-making.</li>
+        <li>Across thousands of simulated shopping rounds, four AI models and four product categories, the tactics built for human psychology did not reliably work, and several backfired outright.</li>
+        <li>Only authentic star ratings consistently increased an agent&#39;s likelihood of choosing a product; a higher price reliably decreased it.</li>
+      </ul>
+      <div class="src">&ldquo;In thousands of simulated shopping rounds&hellip; only star ratings consistently increased choice in the expected direction, while price reliably decreased it.&rdquo; &mdash; Harvard Business Review, &ldquo;Research: Traditional Marketing Doesn&#39;t Work on AI Shopping Agents,&rdquo; May 2026</div>
+    </div><div class="notes"><b>Say:</b> This is not a theory, it has been tested. Researchers ran the human persuasion playbook directly against AI shopping agents, and most of it failed or backfired depending on the model. The two things that reliably moved an agent were star ratings and price &mdash; exactly what a rational comparison engine should respond to, and exactly what a human swayed by urgency or bundling would not.</div></div>
 
     <div class="slide"><div class="body">
       <div class="num">Slide 5 &middot; The hinge</div>
@@ -92,7 +87,8 @@
         <li>The new salience = clean structured data + verifiable, machine-readable trust.</li>
       </ul>
       <div class="src">&ldquo;AI agents are immune to nostalgia&rdquo; (Bazaarvoice) &middot; &ldquo;AI systems don&#39;t browse like humans... they require structured, machine-readable content&rdquo; (Akamai)</div>
-    </div><div class="notes"><b>Say:</b> This is the keynote&#39;s hinge. If the agent carries the salience, your distinctive assets must become machine-readable attributes. The jingle never reaches the machine.</div></div>
+      <div class="kpis" style="margin-top:10px"><div><b>3&ndash;4x</b><span>higher AI visibility for stores with near-complete product data (&ldquo;Golden Record&rdquo;)</span></div></div>
+    </div><div class="notes"><b>Say:</b> This is the keynote&#39;s hinge. If the agent carries the salience, your distinctive assets must become machine-readable attributes. The jingle never reaches the machine &mdash; and this is now measurable: 3-4x visibility for near-complete data. Source: eFulfillment Service, 2026.</div></div>
 
     <div class="slide"><div class="body">
       <div class="num">Slide 6 &middot; Product businesses</div>
@@ -113,8 +109,9 @@
         <li>Whoever owns the answer owns the customer relationship.</li>
         <li>Retail media shifts from banner to <b>being in the answer</b>; you now serve two customers &mdash; the human and the agent.</li>
       </ul>
-      <div class="src">Source: Bain &amp; Company, 2030 agentic retail forecast</div>
-    </div><div class="notes"><b>Say:</b> The shelf war becomes an answer war. Decide where you meet the third-party agent and where you fight to own the relationship yourself.</div></div>
+      <p style="margin:10px 0 0;font-size:14.5px"><b>Two live bets on openness:</b> Walmart integrates with ChatGPT, Gemini and the Universal Commerce Protocol while building its own &ldquo;Sparky&rdquo; agent &mdash; reach over control. Amazon keeps agent interactions inside its own walled garden, led by &ldquo;Buy for Me&rdquo; &mdash; control over reach. Neither bet has won yet.</p>
+      <div class="src">Source: Bain &amp; Company, 2030 agentic retail forecast; ALM Corp, 2026</div>
+    </div><div class="notes"><b>Say:</b> The shelf war becomes an answer war. Decide where you meet the third-party agent and where you fight to own the relationship yourself. Walmart vs. Amazon is the test case running live right now.</div></div>
 
     <div class="slide"><div class="body">
       <div class="num">Slide 8 &middot; Service businesses</div>

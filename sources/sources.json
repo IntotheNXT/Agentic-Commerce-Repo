@@ -640,5 +640,231 @@
     "key_quote": "For 25 years we built catalogs for humans scrolling through filters. Now AI agents translate intent, weigh constraints, and make commitments on behalf of users.",
     "relevance_to_sharp": "Crystallises the shift from human-facing catalogs (physical and mental availability) to machine-facing decision surfaces that agents reason over.",
     "status": "collected"
+  },
+  {
+    "id": "tc-010",
+    "title": "The Complete Product Data Optimization Guide for Google's AI Shopping (2026)",
+    "url": "https://www.efulfillmentservice.com/2026/01/the-complete-product-data-optimization-guide-for-googles-ai-shopping-2026/",
+    "source_type": "analysis",
+    "themes": [
+      "tech-capability",
+      "brand-strategy"
+    ],
+    "date_published": "2026-01-23",
+    "date_collected": "2026-06-22",
+    "publisher": "eFulfillment Service",
+    "summary": "Argues product data completeness is now decisive for AI-shopping visibility: stores with 99.9% attribute completion (a 'Golden Record') see 3-4x higher visibility in AI recommendations than stores with sparse data; details new Google Merchant Center attributes built for conversational commerce.",
+    "key_quote": "Stores with 99.9% attribute completion (what the industry calls a \"Golden Record\") are seeing 3-4x higher visibility in AI recommendations compared to stores with sparse data.",
+    "relevance_to_sharp": "Quantifies the new physical/mental availability hybrid: feed completeness is now a measurable, rankable substitute for shelf placement and salience.",
+    "status": "collected"
+  },
+  {
+    "id": "rt-009",
+    "title": "Walmart's Open AI Strategy vs Amazon: 2026 Agentic Commerce Playbook",
+    "url": "https://almcorp.com/blog/walmart-open-ai-partnerships-vs-amazon-agentic-commerce-playbook/",
+    "source_type": "analysis",
+    "themes": [
+      "retailer-impact",
+      "tech-capability"
+    ],
+    "date_published": "2026-01-18",
+    "date_collected": "2026-06-22",
+    "publisher": "ALM Corp",
+    "summary": "Contrasts Walmart's open-partnership strategy (Sparky agent plus integrations with ChatGPT, Gemini and the Universal Commerce Protocol) with Amazon's closed-ecosystem approach centred on proprietary 'Buy for Me' and limited external AI integration.",
+    "key_quote": "Walmart plugs into external AI ecosystems (ChatGPT, Gemini, Google's Universal Commerce Protocol) while also building internal agents.",
+    "relevance_to_sharp": "A live test of two competing bets on where the new 'shelf' lives: be everywhere agents are (Walmart) versus own the agent entirely (Amazon).",
+    "status": "collected"
+  },
+  {
+    "id": "tc-011",
+    "title": "Perplexity \"Buy with Pro\": zero-fee shopping vs OpenAI's 4% Agentic Commerce Protocol",
+    "url": "https://stellagent.ai/insights/perplexity-shopping-buy-with-pro",
+    "source_type": "analysis",
+    "themes": [
+      "tech-capability",
+      "retailer-impact",
+      "brand-strategy"
+    ],
+    "date_published": "2026-04-05",
+    "date_collected": "2026-06-22",
+    "publisher": "Stellagent",
+    "summary": "Perplexity charges merchants zero fees for in-chat checkout via PayPal, monetising through Pro subscriptions instead; contrasts with OpenAI's 4% ACP transaction fee, which stalled merchant adoption and led OpenAI to scale back Instant Checkout in March 2026.",
+    "key_quote": "Perplexity charges merchants nothing.",
+    "relevance_to_sharp": "Shows the agent layer itself is not neutral infrastructure but a contested business model; whichever platform wins distribution sets new terms for being 'available'.",
+    "status": "collected"
+  },
+  {
+    "id": "br-010",
+    "title": "Research: Traditional Marketing Doesn't Work on AI Shopping Agents",
+    "url": "https://hbr.org/2026/05/research-traditional-marketing-doesnt-work-on-ai-shopping-agents",
+    "source_type": "analysis",
+    "themes": [
+      "brand-strategy",
+      "consumer-behavior"
+    ],
+    "date_published": "2026-05",
+    "date_collected": "2026-06-22",
+    "publisher": "Harvard Business Review",
+    "summary": "Across thousands of simulated shopping rounds over four leading AI models and four product categories, classic human-persuasion tactics (scarcity, countdown timers, bundling, strike-through pricing) failed to reliably influence AI shopping agents and sometimes backfired; only authentic star ratings consistently increased choice, while price reliably decreased it.",
+    "key_quote": "In thousands of simulated shopping rounds... only star ratings consistently increased choice in the expected direction, while price reliably decreased it.",
+    "relevance_to_sharp": "Direct experimental evidence for the thesis: the persuasion machinery mental availability relies on does not transfer to agents; only verifiable signals (ratings, price) move them.",
+    "status": "collected"
+  },
+  {
+    "id": "br-011",
+    "title": "LinkedIn post: Two HBR pieces worth reading together",
+    "url": "https://www.linkedin.com/posts/professorbyronsharp_two-hbr-pieces-worth-reading-together-this-activity-7471260762557194241-TnF9",
+    "source_type": "social-post",
+    "themes": [
+      "brand-strategy",
+      "consumer-behavior"
+    ],
+    "date_published": "2026-06",
+    "date_collected": "2026-06-22",
+    "publisher": "Byron Sharp (LinkedIn)",
+    "summary": "Byron Sharp himself comments on the agentic-commerce shift, framing AI agents as a new distribution intermediary comparable to historical ones (bar staff, hardware sales people, doctors, mortgage brokers) and characterising panic about AI as generational hyperbole.",
+    "key_quote": "",
+    "relevance_to_sharp": "The namesake of the framework this paper engages with, commenting directly and in real time on whether his own laws survive the agentic shift.",
+    "status": "collected"
+  },
+  {
+    "id": "br-012",
+    "title": "LinkedIn post on HBR AI shopping agent research",
+    "url": "https://www.linkedin.com/posts/saqibzia_two-hbr-pieces-ai-shopping-agents-activity",
+    "source_type": "social-post",
+    "themes": [
+      "brand-strategy",
+      "consumer-behavior"
+    ],
+    "date_published": "2026-06",
+    "date_collected": "2026-06-22",
+    "publisher": "Saqib Zia (LinkedIn)",
+    "summary": "Commentary on the HBR persuasion-tactics research, distilling the finding into a single strategic line about brand strength versus algorithmic persuasion.",
+    "key_quote": "The question isn't whether your brand can persuade an algorithm. It's whether it's strong enough not to need to.",
+    "relevance_to_sharp": "Crystallises the bifurcation argument in one sentence: brand strength (mental availability) still matters, but as a foundation, not as a persuasion lever aimed at the agent.",
+    "status": "collected"
+  },
+  {
+    "id": "rt-010",
+    "title": "Your Next Customer Is a Machine",
+    "url": "https://howardyu.substack.com/p/when-the-customer-stops-clicking",
+    "source_type": "analysis",
+    "themes": [
+      "retailer-impact",
+      "tech-capability",
+      "consumer-behavior"
+    ],
+    "date_published": "2026-06-10",
+    "date_collected": "2026-06-22",
+    "publisher": "Howard Yu (One Inch Ahead)",
+    "summary": "Argues agents are replacing the click economy: opens with a Shanghai agent (Meituan's Xiaomei) autonomously ordering and timing a woman's lunch; reports Walmart's ~200,000-product ChatGPT experiment converted at one third the rate of Walmart's own site (due to wrong delivery estimates and shipping costs) and that ByteDance's agent phone sold 30,000 units before WeChat, Taobao and Alipay moved to restrict it; frames the endpoint as a 'Coasean Singularity' where only trust and risk management remain as core business functions.",
+    "key_quote": "Machine-readable trust. In the old world, a brand told a story to a human. Now it starts filing a specification to an agent.",
+    "relevance_to_sharp": "A vivid, concrete case (with a real failure) showing physical availability relocating to data accuracy (delivery estimates, shipping costs) and mental availability collapsing into verifiable transaction history.",
+    "status": "collected"
+  },
+  {
+    "id": "br-013",
+    "title": "LinkedIn post: AI leadership and the CPG existential threat",
+    "url": "https://www.linkedin.com/posts/magalifiechter_aileadership-consumergoods-aitransformation-activity-7469991842978394112-2O1e",
+    "source_type": "social-post",
+    "themes": [
+      "brand-strategy",
+      "retailer-impact",
+      "consumer-behavior"
+    ],
+    "date_published": "2026-06",
+    "date_collected": "2026-06-22",
+    "publisher": "Magali Fiechter-Deloof (LinkedIn)",
+    "summary": "Argues CPG brands face an existential threat as AI agents mediate purchasing; cites Walmart, Unilever, Mars, PepsiCo and Mondelez already adapting, and Google's three new Merchant Center tools (Conversational Attributes, AI Performance Insights, Universal Cart) as formalising the competitive shift from shelf to agent conversation.",
+    "key_quote": "I barely walk into a supermarket anymore. My agent does it.",
+    "relevance_to_sharp": "A first-person account of physical availability becoming irrelevant to the human entirely, delegated wholesale to the agent doing the shelf-walking.",
+    "status": "collected"
+  },
+  {
+    "id": "tc-012",
+    "title": "How we're helping retailers thrive with new Universal Commerce Protocol features and AI tools on Google",
+    "url": "https://blog.google/products-and-platforms/products/shopping/shopping-updates-google-marketing-live/",
+    "source_type": "company-announcement",
+    "themes": [
+      "tech-capability",
+      "brand-strategy",
+      "retailer-impact"
+    ],
+    "date_published": "2026-05-20",
+    "date_collected": "2026-06-22",
+    "publisher": "Google",
+    "summary": "Google launches three Merchant Center tools for agentic shopping: Conversational Attributes (natural-language product descriptions for AI Mode/Gemini matching), AI Performance Insights (share-of-voice on AI surfaces vs competitors), and Universal Cart (cross-retailer checkout via Search/Gemini with Google Pay); early partners include Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair and Shopify merchants.",
+    "key_quote": "Our new Universal Cart is a truly intelligent shopping cart that works across retailers and across services like Search, Gemini and more.",
+    "relevance_to_sharp": "Google formalising 'share of voice on AI surfaces' as a trackable metric is the platform-level institutionalisation of machine-readable mental availability.",
+    "status": "collected"
+  },
+  {
+    "id": "br-014",
+    "title": "Mondelez Overhauls $3.5B Digital Commerce Strategy for the AI Search Era",
+    "url": "https://stellagent.ai/insights/mondelez-digital-commerce-agentic-search",
+    "source_type": "analysis",
+    "themes": [
+      "brand-strategy",
+      "retailer-impact"
+    ],
+    "date_published": "2026",
+    "date_collected": "2026-06-22",
+    "publisher": "Stellagent",
+    "summary": "Mondelez projects 20-30% of its product purchases will happen via AI agents within one to two years and has hired a global lead of emerging commerce platforms dedicated to agentic commerce, running pilots and building a scalable playbook for agent-mediated discovery, recommendation and transaction.",
+    "key_quote": "20-30% of Mondelez product purchases will happen via AI agents within 1-2 years",
+    "relevance_to_sharp": "A named, large FMCG brand putting an internal number and a dedicated role behind the shift, evidence the FMCG implications in this paper are already operational, not speculative.",
+    "status": "collected"
+  },
+  {
+    "id": "tc-013",
+    "title": "LinkedIn post: Meta and Zuck are officially in trouble",
+    "url": "https://www.linkedin.com/posts/itsmrmetaverse_meta-and-zuck-are-officially-in-trouble-activity-7463158038196314112-zRbM/",
+    "source_type": "video",
+    "themes": [
+      "tech-capability",
+      "consumer-behavior"
+    ],
+    "date_published": "2026-05",
+    "date_collected": "2026-06-22",
+    "publisher": "Aragorn Meulendijks (LinkedIn)",
+    "summary": "Argues Meta has squandered its AR/smart-glasses lead to Google, which is integrating Gemini AI into upcoming smart glasses; includes a demo of Gemini autonomously ordering coffee and managing a calendar via voice. Tangential to commerce strategy directly, but a concrete consumer-facing demo of agent-initiated ordering.",
+    "key_quote": "",
+    "relevance_to_sharp": "A live demonstration of the wearable/voice surface where agent-initiated purchasing (ordering coffee) may eventually happen outside any screen at all.",
+    "status": "collected"
+  },
+  {
+    "id": "rt-011",
+    "title": "Research: What China's AI Agents Reveal About the Future of Commerce",
+    "url": "https://hbr.org/2026/04/research-what-chinas-ai-agents-reveal-about-the-future-of-commerce",
+    "source_type": "analysis",
+    "themes": [
+      "retailer-impact",
+      "tech-capability",
+      "consumer-behavior"
+    ],
+    "date_published": "2026-04-17",
+    "date_collected": "2026-06-22",
+    "publisher": "Harvard Business Review",
+    "summary": "Argues that agentic commerce in China has moved past assistive chatbots into full transaction orchestration. Meituan's Xiaomei agent, launched late 2025, is described by the platform itself as 'an orchestrator plus execution agent': a user can say something like 'order my usual lunch, but deliver it 20 minutes later today,' and the system interprets intent, applies stored preferences and completes the purchase, often with no screen interaction at all.",
+    "key_quote": "Xiaomei is built as an orchestrator plus execution agent, not a convenience layer: it interprets intent, applies stored preferences and completes the transaction, often with no screen interaction at all.",
+    "relevance_to_sharp": "When an agent already holds a shopper's stored preferences and executes the order itself, there is no screen moment left for salience or distinctiveness to act on; the brand has to have already won a place inside those stored preferences, well before the transaction starts.",
+    "status": "collected"
+  },
+  {
+    "id": "tc-014",
+    "title": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
+    "url": "https://www.youtube.com/watch?v=C6qcZdtIv54",
+    "source_type": "video",
+    "themes": [
+      "tech-capability",
+      "retailer-impact"
+    ],
+    "date_published": "2025-09-29",
+    "date_collected": "2026-06-22",
+    "publisher": "OpenAI",
+    "summary": "OpenAI's own demo video for Instant Checkout, the feature (built on the open Agentic Commerce Protocol) that let US ChatGPT users buy directly from Etsy sellers and Shopify merchants such as Glossier, SKIMS, Spanx and Vuori without leaving the chat. Note: by March 2026 OpenAI had narrowed this, shifting ChatGPT's shopping focus back toward product discovery rather than in-chat checkout, so treat this video as the launch moment rather than the current state of the product.",
+    "key_quote": "",
+    "relevance_to_sharp": "A concrete, on-screen example of physical availability being rebuilt as a protocol: the agent completes the purchase inside the conversation, so the merchant's catalogue has to already be machine-readable before the moment a shopper asks.",
+    "status": "collected"
   }
 ]

@@ -16,8 +16,8 @@ h1,h2,h3{letter-spacing:-.4px}
 header.top{border-bottom:1px solid var(--line);background:var(--bg);position:sticky;top:0;z-index:50}
 .brand{display:flex;align-items:center;justify-content:space-between;padding:14px 0;flex-wrap:wrap;gap:10px}
 .brand .logo{display:flex;align-items:center;gap:9px;font-weight:700;font-size:17px;color:var(--ink)}
-.brand .logo img{height:26px;display:block}
-.brand .logo span{color:var(--accent2)}
+.brand .logo img{height:32px;display:block}
+.brand .logo .tld{color:var(--accent2)}
 nav.main{display:flex;flex-wrap:wrap;gap:4px;align-items:center}
 nav.main a{color:var(--muted);font-size:13.5px;font-weight:500;padding:6px 10px;border-radius:7px}
 nav.main a:hover{color:var(--ink);background:var(--panel);text-decoration:none}
@@ -48,7 +48,8 @@ section.block{padding:30px 0}
 .navcard{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:20px;display:block;
   transition:.15s;color:var(--ink);box-shadow:0 1px 3px rgba(16,24,21,.05)}
 .navcard:hover{border-color:#b7c2bd;transform:translateY(-2px);text-decoration:none;box-shadow:0 4px 10px rgba(16,24,21,.08)}
-.navcard .ic{font-size:22px}
+.navcard .ic{width:42px;height:42px;display:flex;align-items:center;justify-content:center;background:var(--panel2);border-radius:11px;color:var(--ink)}
+.navcard .ic svg{width:22px;height:22px}
 .navcard h3{font-size:17px;margin:10px 0 6px;color:var(--ink)}
 .navcard p{font-size:13.5px;color:var(--muted);margin:0}
 .navcard .go{color:var(--accent2);font-size:13px;font-weight:600;margin-top:10px;display:inline-block}

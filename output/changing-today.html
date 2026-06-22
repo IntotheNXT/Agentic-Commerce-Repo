@@ -44,10 +44,10 @@
 
     <div class="chartcard">
       <h3>Graph 3 &middot; AI adoption growth</h3>
-      <p class="sub">Active users, 2023 to present. Shows the exponential adoption curve.</p>
+      <p class="sub">2023 to present. Claude&#39;s 2026 surge is monthly website visits, not unique users, so it runs higher than a strict active-user count &mdash; but the growth is real and Similarweb-verified.</p>
       <div class="legend" id="lg1"></div>
       <div id="c1"></div>
-      <div class="src">ChatGPT figures are weekly active users; Gemini, Perplexity and Claude are monthly actives. Best-available public estimates &mdash; Sources: OpenAI / Demandsage, Google, market trackers (Similarweb, FatJoe).</div>
+      <div class="src">ChatGPT: weekly active users (OpenAI / Demandsage). Gemini: monthly active users (Google). Claude: monthly website visits to claude.ai (Similarweb) &mdash; up more than 5x year-over-year to 952.6M in May 2026. Perplexity omitted: its visits peaked at 240M (Nov 2025) and have since plateaued/declined to 138&ndash;210M, the opposite of the other three lines.</div>
     </div>
   </section>
 
@@ -77,16 +77,6 @@
       </div>
     </div>
   </section>
-
-  <section class="block">
-    <div class="sec-head"><h2>In motion</h2><p>Worth watching &mdash; commentary and demos from the field. We can&#39;t rehost LinkedIn/Substack video directly, so these link out to the source.</p></div>
-    <div class="clips">
-      <a class="clip" href="https://howardyu.substack.com/p/when-the-customer-stops-clicking" target="_blank" rel="noopener">&#9654; Howard Yu &mdash; &ldquo;Your Next Customer Is a Machine&rdquo; (video essay)</a>
-      <a class="clip" href="https://www.linkedin.com/posts/itsmrmetaverse_meta-and-zuck-are-officially-in-trouble-activity-7463158038196314112-zRbM/" target="_blank" rel="noopener">&#9654; Gemini ordering coffee &amp; managing a calendar by voice (LinkedIn)</a>
-      <a class="clip" href="https://www.linkedin.com/posts/professorbyronsharp_two-hbr-pieces-worth-reading-together-this-activity-7471260762557194241-TnF9" target="_blank" rel="noopener">&#9654; Byron Sharp on AI agents as a new distribution intermediary (LinkedIn)</a>
-      <a class="clip" href="https://www.linkedin.com/posts/magalifiechter_aileadership-consumergoods-aitransformation-activity-7469991842978394112-2O1e" target="_blank" rel="noopener">&#9654; &ldquo;My agent does it&rdquo; &mdash; the CPG existential-threat take (LinkedIn)</a>
-    </div>
-  </section>
 </div>
 
 <footer><div class="wrap"><div>Evidence drawn from the <a href="sources.html">source library</a></div><div><a href="mailto:info@intothenxt.com">info@intothenxt.com</a></div></div></footer>
@@ -102,7 +92,8 @@ function lineChart(id,lgId,cfg){
   for(var g=0;g<=4;g++){var v=ym*g/4;var y=Y(v);
     svg+='<line class="grid" x1="'+pL+'" y1="'+y+'" x2="'+(W-pR)+'" y2="'+y+'"/>';
     svg+='<text x="'+(pL-8)+'" y="'+(y+4)+'" text-anchor="end">'+(cfg.fmt?cfg.fmt(v):v)+'</text>';}
-  for(var i=0;i<n;i++){svg+='<text x="'+X(i)+'" y="'+(H-12)+'" text-anchor="middle">'+cfg.labels[i]+'</text>';}
+  for(var i=0;i<n;i++){var anchor=i===0?"start":(i===n-1?"end":"middle");
+    svg+='<text x="'+X(i)+'" y="'+(H-12)+'" text-anchor="'+anchor+'">'+cfg.labels[i]+'</text>';}
   cfg.series.forEach(function(s){
     var pts=s.data.map(function(v,i){return X(i)+","+Y(v);}).join(" ");
     svg+='<polyline fill="none" stroke="'+s.color+'" stroke-width="2.5" points="'+pts+'"/>';
@@ -120,13 +111,12 @@ lineChart("c3","lg3",{labels:["Jan 2025","Dec 2025"],yMax:420,
   series:[
     {name:"AI-driven referrals",color:COL.green,data:[100,404]},
     {name:"Traditional search clicks",color:COL.amber,data:[100,67]}]});
-lineChart("c1","lg1",{labels:["Late 2023","Mid 2024","2025","Early 2026"],yMax:1000,
+lineChart("c1","lg1",{labels:["Late 2023","Mid 2024","2025","2026"],yMax:1000,
   fmt:function(v){return v+"M";},
   series:[
-    {name:"ChatGPT",color:COL.blue,data:[100,200,800,900]},
-    {name:"Gemini",color:COL.green,data:[0,90,350,450]},
-    {name:"Perplexity",color:COL.amber,data:[5,10,22,30]},
-    {name:"Claude",color:COL.pink,data:[3,8,18,40]}]});
+    {name:"ChatGPT (weekly users)",color:COL.blue,data:[100,200,800,900]},
+    {name:"Gemini (monthly users)",color:COL.green,data:[1,90,350,450]},
+    {name:"Claude (claude.ai visits)",color:COL.pink,data:[4,20,280,953]}]});
 </script>
 </body>
 </html>

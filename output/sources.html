@@ -68,7 +68,6 @@
   .empty{color:var(--muted);padding:40px;text-align:center;border:1px dashed var(--line);border-radius:12px}
   footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px;padding:26px 0 50px}
   footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
-  .badge-new{background:var(--warn);color:#5c3d00;font-size:10px;font-weight:700;padding:2px 7px;border-radius:6px;text-transform:uppercase}
   @media(max-width:640px){.hero h1{font-size:30px}}
 </style>
 </head>
@@ -195,9 +194,8 @@ function card(s){
   const themes=s.themes.map(t=>'<span class="tt">'+esc(THEME_LABELS[t]||t)+'</span>').join("");
   const quote=s.key_quote?'<div class="quote">“'+esc(s.key_quote)+'”</div>':"";
   const date=s.date_published?esc(s.date_published):"date n/a";
-  const newBadge=(s.date_collected===LATEST_COLLECTED)?'<span class="badge-new">new</span>':"";
   return '<article class="card">'
-    +'<div class="meta"><span class="pill type">'+esc(TYPE_LABELS[s.source_type]||s.source_type)+'</span><span>'+date+'</span>'+newBadge+'</div>'
+    +'<div class="meta"><span class="pill type">'+esc(TYPE_LABELS[s.source_type]||s.source_type)+'</span><span>'+date+'</span></div>'
     +'<h3><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.title)+'</a></h3>'
     +'<div class="pub">'+esc(s.publisher)+'</div>'
     +'<div class="summary">'+esc(s.summary)+'</div>'

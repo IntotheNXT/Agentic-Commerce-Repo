@@ -1,202 +1,117 @@
 {
-  "cycle": 0,
-  "collected_on": "2026-06-19",
-  "review_due": "2026-06-23",
+  "cycle": 1,
+  "collected_on": "2026-07-01",
+  "review_due": "2026-07-07",
   "instructions": "For each source set decision to 'approve' or 'reject'. Note any edits to summary/quote/theme. Then the white paper + keynote regenerate from approved sources and the site rebuilds.",
   "pending_sources": [
     {
-      "id": "cb-001",
-      "publisher": "commercetools",
+      "id": "cb-c1-01",
+      "publisher": "MDPI – Information",
       "decision": "pending"
     },
     {
-      "id": "cb-002",
-      "publisher": "BCG",
+      "id": "cb-c1-02",
+      "publisher": "Adobe Digital Insights",
       "decision": "pending"
     },
     {
-      "id": "cb-003",
-      "publisher": "eMarketer",
+      "id": "cb-c1-03",
+      "publisher": "Deloitte Asia Pacific",
       "decision": "pending"
     },
     {
-      "id": "cb-004",
-      "publisher": "Ekamoira",
+      "id": "cb-c1-04",
+      "publisher": "CNBC",
       "decision": "pending"
     },
     {
-      "id": "cb-005",
-      "publisher": "Bain & Company",
-      "decision": "pending"
-    },
-    {
-      "id": "cb-006",
-      "publisher": "eMarketer",
-      "decision": "pending"
-    },
-    {
-      "id": "br-001",
-      "publisher": "Bazaarvoice",
-      "decision": "pending"
-    },
-    {
-      "id": "br-002",
-      "publisher": "Sia Partners",
-      "decision": "pending"
-    },
-    {
-      "id": "br-003",
+      "id": "br-c1-01",
       "publisher": "McKinsey & Company",
       "decision": "pending"
     },
     {
-      "id": "br-004",
-      "publisher": "Accenture Song",
-      "decision": "pending"
-    },
-    {
-      "id": "br-005",
-      "publisher": "Harvard Business Review",
-      "decision": "pending"
-    },
-    {
-      "id": "br-006",
-      "publisher": "PwC",
-      "decision": "pending"
-    },
-    {
-      "id": "br-007",
-      "publisher": "McKinsey & Company",
-      "decision": "pending"
-    },
-    {
-      "id": "rt-001",
-      "publisher": "McKinsey & Company",
-      "decision": "pending"
-    },
-    {
-      "id": "rt-002",
-      "publisher": "Bain & Company",
-      "decision": "pending"
-    },
-    {
-      "id": "rt-003",
-      "publisher": "Shopify",
-      "decision": "pending"
-    },
-    {
-      "id": "rt-004",
+      "id": "br-c1-02",
       "publisher": "Forrester",
       "decision": "pending"
     },
     {
-      "id": "rt-005",
-      "publisher": "Stellagent",
-      "decision": "pending"
-    },
-    {
-      "id": "tc-001",
-      "publisher": "OpenAI",
-      "decision": "pending"
-    },
-    {
-      "id": "tc-002",
-      "publisher": "Stripe",
-      "decision": "pending"
-    },
-    {
-      "id": "tc-003",
-      "publisher": "Visa",
-      "decision": "pending"
-    },
-    {
-      "id": "tc-004",
-      "publisher": "Digital Commerce 360",
-      "decision": "pending"
-    },
-    {
-      "id": "tc-005",
-      "publisher": "Adyen",
-      "decision": "pending"
-    },
-    {
-      "id": "tc-006",
-      "publisher": "TechInformed",
-      "decision": "pending"
-    },
-    {
-      "id": "rg-001",
-      "publisher": "European Business Magazine",
-      "decision": "pending"
-    },
-    {
-      "id": "rg-002",
-      "publisher": "TLT LLP",
-      "decision": "pending"
-    },
-    {
-      "id": "rg-003",
-      "publisher": "National Law Review",
-      "decision": "pending"
-    },
-    {
-      "id": "rg-004",
-      "publisher": "Center for Data Innovation",
-      "decision": "pending"
-    },
-    {
-      "id": "rg-005",
-      "publisher": "Edgar, Dunn & Company",
-      "decision": "pending"
-    },
-    {
-      "id": "tc-007",
+      "id": "br-c1-03",
       "publisher": "Microsoft",
       "decision": "pending"
     },
     {
-      "id": "rt-006",
-      "publisher": "Digital Commerce 360",
+      "id": "rt-c1-01",
+      "publisher": "GeekWire (Amazon AWS)",
       "decision": "pending"
     },
     {
-      "id": "br-008",
-      "publisher": "Gartner",
+      "id": "rt-c1-02",
+      "publisher": "Bain & Company",
       "decision": "pending"
     },
     {
-      "id": "rt-007",
-      "publisher": "Digital Commerce 360",
+      "id": "rt-c1-03",
+      "publisher": "Forrester",
       "decision": "pending"
     },
     {
-      "id": "rt-008",
-      "publisher": "Morgan Stanley",
+      "id": "rt-c1-04",
+      "publisher": "Shopify",
       "decision": "pending"
     },
     {
-      "id": "cb-007",
-      "publisher": "Elogic (citing Similarweb)",
+      "id": "tc-c1-01",
+      "publisher": "Mastercard",
       "decision": "pending"
     },
     {
-      "id": "br-009",
-      "publisher": "Akamai",
+      "id": "tc-c1-02",
+      "publisher": "Mastercard",
       "decision": "pending"
     },
     {
-      "id": "tc-008",
-      "publisher": "Akamai",
+      "id": "tc-c1-03",
+      "publisher": "OpenAI",
       "decision": "pending"
     },
     {
-      "id": "tc-009",
-      "publisher": "Agentic Commerce, Inc. (The Fold / NQOBAX.ai)",
+      "id": "tc-c1-04",
+      "publisher": "Adobe",
+      "decision": "pending"
+    },
+    {
+      "id": "tc-c1-05",
+      "publisher": "Google",
+      "decision": "pending"
+    },
+    {
+      "id": "rg-c1-01",
+      "publisher": "UK Competition and Markets Authority (CMA)",
+      "decision": "pending"
+    },
+    {
+      "id": "rg-c1-02",
+      "publisher": "Hogan Lovells",
+      "decision": "pending"
+    },
+    {
+      "id": "rg-c1-03",
+      "publisher": "Clifford Chance",
+      "decision": "pending"
+    },
+    {
+      "id": "rg-c1-04",
+      "publisher": "International Monetary Fund (IMF)",
       "decision": "pending"
     }
   ],
   "major_changes_to_approve": [
-    "Publish white paper v0.1 (currently DRAFT)",
-    "Publish keynote v0.1 outline (currently DRAFT)"
+    "White paper: add section on the adoption gap (discovery vs. execution) evidenced by CNBC/OpenAI stumble + Forrester mid-2026 reality check — the thesis is real but on a 2-3 year not 12-month horizon.",
+    "White paper: add European data lane using McKinsey Europe + Deloitte APAC — the 'decision influence is here, execution is coming' framing is a crisp subheading for the current moment.",
+    "White paper: add A2A (agent-to-agent) commerce as the outer-limit scenario using Bain 'Next Retail Revolution' + Mastercard AP4M — where neither human salience nor human trust enters the transaction at all.",
+    "White paper: add regulatory section on CMA guidance (March 2026) + IMF macroprudential framework as the first wave of institutional guardrails reshaping the agent-commerce environment.",
+    "Keynote: add slide on the 393% AI traffic surge (Adobe Q1 2026) with the conversion-rate reversal (AI traffic now 42% better) as the most compelling single data point for a live audience.",
+    "Keynote: update protocol landscape slide to reflect that UCP, ACP, and Mastercard AP4M are all live — protocol fragmentation is real but a consolidation narrative is emerging (most major platforms support UCP/ACP).",
+    "Publish white paper v0.1 and keynote v0.1 outline (still marked DRAFT — pending first full approval cycle from Cycle 0)."
   ]
 }

@@ -1,202 +1,109 @@
 {
-  "cycle": 0,
-  "collected_on": "2026-06-19",
-  "review_due": "2026-06-23",
+  "cycle": 1,
+  "collected_on": "2026-08-01",
+  "review_due": "2026-08-04",
   "instructions": "For each source set decision to 'approve' or 'reject'. Note any edits to summary/quote/theme. Then the white paper + keynote regenerate from approved sources and the site rebuilds.",
   "pending_sources": [
     {
-      "id": "cb-001",
-      "publisher": "commercetools",
-      "decision": "pending"
-    },
-    {
-      "id": "cb-002",
-      "publisher": "BCG",
-      "decision": "pending"
-    },
-    {
-      "id": "cb-003",
-      "publisher": "eMarketer",
-      "decision": "pending"
-    },
-    {
-      "id": "cb-004",
-      "publisher": "Ekamoira",
-      "decision": "pending"
-    },
-    {
-      "id": "cb-005",
-      "publisher": "Bain & Company",
-      "decision": "pending"
-    },
-    {
-      "id": "cb-006",
-      "publisher": "eMarketer",
-      "decision": "pending"
-    },
-    {
-      "id": "br-001",
-      "publisher": "Bazaarvoice",
-      "decision": "pending"
-    },
-    {
-      "id": "br-002",
-      "publisher": "Sia Partners",
-      "decision": "pending"
-    },
-    {
-      "id": "br-003",
+      "id": "cb-c1-01",
       "publisher": "McKinsey & Company",
       "decision": "pending"
     },
     {
-      "id": "br-004",
-      "publisher": "Accenture Song",
+      "id": "cb-c1-02",
+      "publisher": "Deloitte",
       "decision": "pending"
     },
     {
-      "id": "br-005",
-      "publisher": "Harvard Business Review",
+      "id": "cb-c1-03",
+      "publisher": "arXiv",
       "decision": "pending"
     },
     {
-      "id": "br-006",
-      "publisher": "PwC",
+      "id": "br-c1-01",
+      "publisher": "Accenture",
       "decision": "pending"
     },
     {
-      "id": "br-007",
-      "publisher": "McKinsey & Company",
-      "decision": "pending"
-    },
-    {
-      "id": "rt-001",
-      "publisher": "McKinsey & Company",
-      "decision": "pending"
-    },
-    {
-      "id": "rt-002",
-      "publisher": "Bain & Company",
-      "decision": "pending"
-    },
-    {
-      "id": "rt-003",
-      "publisher": "Shopify",
-      "decision": "pending"
-    },
-    {
-      "id": "rt-004",
-      "publisher": "Forrester",
-      "decision": "pending"
-    },
-    {
-      "id": "rt-005",
-      "publisher": "Stellagent",
-      "decision": "pending"
-    },
-    {
-      "id": "tc-001",
-      "publisher": "OpenAI",
-      "decision": "pending"
-    },
-    {
-      "id": "tc-002",
-      "publisher": "Stripe",
-      "decision": "pending"
-    },
-    {
-      "id": "tc-003",
-      "publisher": "Visa",
-      "decision": "pending"
-    },
-    {
-      "id": "tc-004",
-      "publisher": "Digital Commerce 360",
-      "decision": "pending"
-    },
-    {
-      "id": "tc-005",
-      "publisher": "Adyen",
-      "decision": "pending"
-    },
-    {
-      "id": "tc-006",
-      "publisher": "TechInformed",
-      "decision": "pending"
-    },
-    {
-      "id": "rg-001",
-      "publisher": "European Business Magazine",
-      "decision": "pending"
-    },
-    {
-      "id": "rg-002",
-      "publisher": "TLT LLP",
-      "decision": "pending"
-    },
-    {
-      "id": "rg-003",
-      "publisher": "National Law Review",
-      "decision": "pending"
-    },
-    {
-      "id": "rg-004",
-      "publisher": "Center for Data Innovation",
-      "decision": "pending"
-    },
-    {
-      "id": "rg-005",
-      "publisher": "Edgar, Dunn & Company",
-      "decision": "pending"
-    },
-    {
-      "id": "tc-007",
-      "publisher": "Microsoft",
-      "decision": "pending"
-    },
-    {
-      "id": "rt-006",
-      "publisher": "Digital Commerce 360",
-      "decision": "pending"
-    },
-    {
-      "id": "br-008",
+      "id": "br-c1-02",
       "publisher": "Gartner",
       "decision": "pending"
     },
     {
-      "id": "rt-007",
+      "id": "br-c1-03",
+      "publisher": "Salesforce",
+      "decision": "pending"
+    },
+    {
+      "id": "br-c1-04",
+      "publisher": "ACM Web Conference 2026",
+      "decision": "pending"
+    },
+    {
+      "id": "rt-c1-01",
+      "publisher": "Forrester",
+      "decision": "pending"
+    },
+    {
+      "id": "rt-c1-02",
+      "publisher": "Shopify",
+      "decision": "pending"
+    },
+    {
+      "id": "rt-c1-03",
       "publisher": "Digital Commerce 360",
       "decision": "pending"
     },
     {
-      "id": "rt-008",
-      "publisher": "Morgan Stanley",
+      "id": "rt-c1-04",
+      "publisher": "Deloitte",
       "decision": "pending"
     },
     {
-      "id": "cb-007",
-      "publisher": "Elogic (citing Similarweb)",
+      "id": "tc-c1-01",
+      "publisher": "Mastercard",
       "decision": "pending"
     },
     {
-      "id": "br-009",
-      "publisher": "Akamai",
+      "id": "tc-c1-02",
+      "publisher": "International Monetary Fund",
       "decision": "pending"
     },
     {
-      "id": "tc-008",
-      "publisher": "Akamai",
+      "id": "tc-c1-03",
+      "publisher": "Visa",
       "decision": "pending"
     },
     {
-      "id": "tc-009",
-      "publisher": "Agentic Commerce, Inc. (The Fold / NQOBAX.ai)",
+      "id": "tc-c1-04",
+      "publisher": "Adobe Digital Insights",
+      "decision": "pending"
+    },
+    {
+      "id": "rg-c1-01",
+      "publisher": "Davis Wright Tremaine LLP",
+      "decision": "pending"
+    },
+    {
+      "id": "rg-c1-02",
+      "publisher": "Clifford Chance",
+      "decision": "pending"
+    },
+    {
+      "id": "rg-c1-03",
+      "publisher": "Fenwick & West LLP",
       "decision": "pending"
     }
   ],
   "major_changes_to_approve": [
-    "Publish white paper v0.1 (currently DRAFT)",
-    "Publish keynote v0.1 outline (currently DRAFT)"
+    "White paper: update Section 3 (consumer adoption evidence) with Accenture finding that 74% trust agents over a best friend but 37% of loyal shoppers would still switch brands — nuances the 'delegation is partial' argument.",
+    "White paper: add European perspective from McKinsey (conditional delegation / EU AI Act alignment) to counter US-and-China-centric framing.",
+    "White paper: add Forrester mid-2026 clarification that most 'agentic' commerce is still assistive — sharpens the 'where we are now vs where we are going' narrative arc.",
+    "White paper / Keynote: incorporate Shopify Catalog + 2x conversion data as the clearest empirical case for structured-data availability replacing shelf placement.",
+    "White paper / Keynote: reference AI AGENT Act as the first US federal regulatory signal — 'the rulebook is being written now' becomes a more concrete claim.",
+    "Keynote: update data slide with Adobe 393% AI traffic figure and the conversion advantage (42% better) to anchor the 'this is already happening' section.",
+    "Keynote: add Salesforce stat (200% growth in AI as first stop in shopping journey) as a consumer-behaviour headline to open the 'agent as the new storefront' section.",
+    "Publish white paper v0.1 (currently DRAFT — held from Cycle 0)",
+    "Publish keynote v0.1 outline (currently DRAFT — held from Cycle 0)"
   ]
 }

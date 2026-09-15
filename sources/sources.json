@@ -866,5 +866,367 @@
     "key_quote": "",
     "relevance_to_sharp": "A concrete, on-screen example of physical availability being rebuilt as a protocol: the agent completes the purchase inside the conversation, so the merchant's catalogue has to already be machine-readable before the moment a shopper asks.",
     "status": "collected"
+  },
+  {
+    "id": "cb-c1-01",
+    "title": "Talk to My AI Agent: The New Rules of Brand Value",
+    "url": "https://www.accenture.com/us-en/insights/consulting/talk-my-ai-agent",
+    "source_type": "research-report",
+    "themes": [
+      "consumer-behavior",
+      "brand-strategy"
+    ],
+    "date_published": "2026-06",
+    "date_collected": "2026-09-15",
+    "publisher": "Accenture",
+    "summary": "Accenture's Consumer Pulse Research surveying 25,590 consumers across 16 countries finds 74% would trust a personal AI agent more than their best friend to make a purchase on their behalf; 74% are willing to delegate routine tasks to agents, yet only 9% are open to fully autonomous purchases including payment. Introduces the 'delegation dial' concept—the same consumer who automates grocery reorders may withhold control over travel bookings.",
+    "key_quote": "74% of respondents said they would trust a personal AI agent more than their best friend to make a purchase on their behalf",
+    "relevance_to_sharp": "Quantifies the delegation-willingness gap that determines how much of the purchase decision escapes human mental availability altogether, and shows it is category-specific.",
+    "status": "collected"
+  },
+  {
+    "id": "cb-c1-02",
+    "title": "Consumer demand for AI shopping is forming fast but trust for agentic commerce is still catching up",
+    "url": "https://www.checkout.com/newsroom/consumer-demand-for-ai-shopping-is-forming-fast-but-trust-for-agentic-commerce-is-still-catching-up",
+    "source_type": "research-report",
+    "themes": [
+      "consumer-behavior",
+      "regulatory"
+    ],
+    "date_published": "2026",
+    "date_collected": "2026-09-15",
+    "publisher": "Checkout.com",
+    "summary": "Checkout.com research finds 27% of consumers trust no organisation to operate an AI shopping agent, 24% say they will never delegate purchases to AI, and consumers on average would allow an agent to spend £177 per purchase without additional approval. One-third expect 10% of purchases to be AI-driven within a year; 72% of merchants agree consumers will adopt agent-led shopping faster than merchants are prepared for.",
+    "key_quote": "27% of consumers say they trust no organization to operate an AI shopping agent",
+    "relevance_to_sharp": "Maps the trust and control conditions under which consumers delegate purchasing decisions, determining the scope within which agent-era availability rules apply at all.",
+    "status": "collected"
+  },
+  {
+    "id": "cb-c1-03",
+    "title": "Adobe: AI-referred traffic to retail sites doubles in a year",
+    "url": "https://www.digitalcommerce360.com/2026/06/17/adobe-ai-referred-traffic-to-retail-sites-doubles-in-a-year/",
+    "source_type": "news",
+    "themes": [
+      "consumer-behavior",
+      "retailer-impact"
+    ],
+    "date_published": "2026-06-17",
+    "date_collected": "2026-09-15",
+    "publisher": "Digital Commerce 360 (citing Adobe Analytics)",
+    "summary": "Adobe Analytics data shows AI-referred traffic to US retail sites grew 393% year-over-year in Q1 2026, with March 2026 AI traffic converting 42% better than human traffic and generating 37% higher revenue per visit—an 80-percentage-point swing from March 2025 when AI traffic converted 38% worse. Approximately 25% of homepage content and 34% of category pages remain unoptimised for AI agents.",
+    "key_quote": "",
+    "relevance_to_sharp": "AI traffic now outconverts human traffic: the agent is no longer a second-class channel, and sites unoptimised for agents are leaving measurable revenue on the table.",
+    "status": "collected"
+  },
+  {
+    "id": "br-c1-01",
+    "title": "Agentic commerce: new frontiers",
+    "url": "https://www.morganstanley.com/im/en-us/individual-investor/insights/global-equity-observer/agentic-commerce-new-frontiers.html",
+    "source_type": "research-report",
+    "themes": [
+      "brand-strategy",
+      "retailer-impact",
+      "tech-capability"
+    ],
+    "date_published": "2026",
+    "date_collected": "2026-09-15",
+    "publisher": "Morgan Stanley Investment Management",
+    "summary": "Morgan Stanley's International Equity team examines how AI-mediated commerce changes how demand is expressed, how products are discovered, and where economics accrue across the commerce stack (software, payments, logistics, advertising and marketplaces). Argues the near-term reality is evolutionary rather than overnight disruption, but the interface through which consumers shop is becoming conversational, personalised, and increasingly capable of executing transactions.",
+    "key_quote": "",
+    "relevance_to_sharp": "Investment-grade analysis of which layers of the commerce stack capture value when discovery shifts to agents, mapping the structural shift away from shelf-placement economics.",
+    "status": "collected"
+  },
+  {
+    "id": "br-c1-02",
+    "title": "How to Elevate Byron Sharp's Playbook: From Mental Availability to Mental Advantage",
+    "url": "https://fazer.agency/how-to-elevate-byron-sharps-playbook-from-mental-availability-to-mental-advantage/",
+    "source_type": "analysis",
+    "themes": [
+      "brand-strategy"
+    ],
+    "date_published": "2026",
+    "date_collected": "2026-09-15",
+    "publisher": "Fazer Agency",
+    "summary": "Argues Byron Sharp's mental availability framework needs upgrading for AI-mediated commerce: 'AI availability' is proposed as a third layer alongside physical and mental availability, in which category entry points become prompt entry points and brands must be retrievable, interpretable and recommendable inside generative AI systems.",
+    "key_quote": "",
+    "relevance_to_sharp": "Directly extends and stress-tests the Sharp framework for the agent era, proposing 'AI availability' as the machine-age successor to mental availability.",
+    "status": "collected"
+  },
+  {
+    "id": "br-c1-03",
+    "title": "Agentic-Ready Product Data: How to Get It & the Cost of Inaction",
+    "url": "https://www.shopify.com/enterprise/blog/agentic-ready-product-data",
+    "source_type": "analysis",
+    "themes": [
+      "brand-strategy",
+      "tech-capability",
+      "retailer-impact"
+    ],
+    "date_published": "2026",
+    "date_collected": "2026-09-15",
+    "publisher": "Shopify",
+    "summary": "Shopify Enterprise explains that agentic-ready product data—structured, machine-parsable, real-time—is the new prerequisite for AI discoverability: AI-referred orders grew nearly 13x year-over-year in Q1 2026 and AI-referred visitors convert at nearly 50% higher rates than organic search. Defines the 12 core attributes every SKU needs plus 20-30 enrichment attributes for AI agents.",
+    "key_quote": "",
+    "relevance_to_sharp": "Translates Sharp's physical availability into a measurable, 12-attribute checklist: if the product data is incomplete, the agent cannot find it—machine-readable completeness is the new shelf placement.",
+    "status": "collected"
+  },
+  {
+    "id": "br-c1-04",
+    "title": "Why AI availability is the new battleground for brands",
+    "url": "https://searchengineland.com/ai-availability-brands-battleground-464484",
+    "source_type": "analysis",
+    "themes": [
+      "brand-strategy",
+      "tech-capability"
+    ],
+    "date_published": "2026",
+    "date_collected": "2026-09-15",
+    "publisher": "Search Engine Land",
+    "summary": "Argues that in an AI-mediated world, category entry points increasingly become prompt entry points; AI availability functions as a measurable layer alongside Sharp's physical and mental availability, and building or amplifying presence on sources AI models cite is one of the highest-leverage moves available to retail and e-commerce marketers.",
+    "key_quote": "",
+    "relevance_to_sharp": "Operationalises the thesis for brand practitioners: identifies 'AI availability' as a new, trackable competitive dimension equivalent to the mental and physical availability Sharp describes.",
+    "status": "collected"
+  },
+  {
+    "id": "rt-c1-01",
+    "title": "Agentic AI in Retail: How Autonomous Shopping Is Redefining the Customer Journey",
+    "url": "https://www.bain.com/insights/agentic-ai-in-retail-how-autonomous-shopping-redefining-customer-journey/",
+    "source_type": "research-report",
+    "themes": [
+      "retailer-impact",
+      "consumer-behavior"
+    ],
+    "date_published": "2026",
+    "date_collected": "2026-09-15",
+    "publisher": "Bain & Company",
+    "summary": "Bain's updated retail analysis finds AI now accounts for up to 25% of referral traffic for some retailers but under 1% of total traffic; consumers trust retailers' own on-site agents three times more than third-party agents; and Bain identifies three retailer priorities—exclusive products and loyalty, new AI ad formats, and protecting first-party data and fulfillment control.",
+    "key_quote": "",
+    "relevance_to_sharp": "Illustrates that the 'new shelf' varies by agent type: third-party agents (the most disintermediating) are least trusted by consumers, creating a structural tension between where discovery happens and where conversions occur.",
+    "status": "collected"
+  },
+  {
+    "id": "rt-c1-02",
+    "title": "The future of commerce: Agentic shopping in Asia Pacific",
+    "url": "https://www.deloitte.com/ap/en/perspectives/future-of-commerce-agentic-shopping-in-apac.html",
+    "source_type": "research-report",
+    "themes": [
+      "retailer-impact",
+      "consumer-behavior"
+    ],
+    "date_published": "2026-03",
+    "date_collected": "2026-09-15",
+    "publisher": "Deloitte",
+    "summary": "Deloitte's Asia Pacific report finds 29% of APAC consumer businesses already adopt agentic AI, expected to surge to 76% within two years; nine in ten retail executives expect AI to be used more than traditional search engines by 2026; and half expect today's multi-step shopping journey to collapse by 2027. APAC is set to drive two-thirds of global retail growth over the next five years.",
+    "key_quote": "today, 29% of consumer businesses in Asia Pacific report they are already adopting agentic AI, but this is expected to surge to 76% within two years",
+    "relevance_to_sharp": "Provides geographic evidence that the agent-mediated purchasing shift is fastest in markets where mobile-first, super-app commerce already diminished the Western notion of the physical shelf.",
+    "status": "collected"
+  },
+  {
+    "id": "rt-c1-03",
+    "title": "The State Of Agentic Commerce In Mid-2026",
+    "url": "https://www.forrester.com/blogs/the-state-of-agentic-commerce-in-mid-2026/",
+    "source_type": "analysis",
+    "themes": [
+      "retailer-impact",
+      "brand-strategy",
+      "consumer-behavior"
+    ],
+    "date_published": "2026",
+    "date_collected": "2026-09-15",
+    "publisher": "Forrester",
+    "summary": "Forrester's mid-year assessment finds agentic commerce is advancing but not yet truly autonomous: most 'agentic' experiences remain conversational, true autonomous checkout is rare, and consumers widely believe brands will market to their agents but few trust those agents to act. Forrester predicts 1 in 5 sellers will respond to AI buyer agents with dynamically delivered counteroffers via seller-controlled agents.",
+    "key_quote": "",
+    "relevance_to_sharp": "Provides a practitioner reality-check: agentic commerce is real but still primarily assistive, meaning mental availability and brand salience still act in the current moment, while the direction of travel points toward their erosion.",
+    "status": "collected"
+  },
+  {
+    "id": "rt-c1-04",
+    "title": "Amazon offers its AI shopping tech to outside retailers in new phase of agentic commerce race",
+    "url": "https://www.geekwire.com/2026/amazon-offers-its-ai-shopping-tech-to-outside-retailers-in-new-phase-of-agentic-commerce-race/",
+    "source_type": "news",
+    "themes": [
+      "retailer-impact",
+      "tech-capability"
+    ],
+    "date_published": "2026",
+    "date_collected": "2026-09-15",
+    "publisher": "GeekWire",
+    "summary": "Amazon has moved from walled-garden agentic commerce (Buy for Me operating within Amazon's ecosystem) to offering its AI shopping technology to outside retailers, expanding the agentic commerce race to a platform-licensing model alongside Walmart's open-integration strategy and Google's UCP.",
+    "key_quote": "",
+    "relevance_to_sharp": "Amazon's strategic pivot—from owning the shelf to licensing the shelf technology—shows that the economics of agent-layer control are still being determined and that no single walled garden can capture the whole market.",
+    "status": "collected"
+  },
+  {
+    "id": "rt-c1-05",
+    "title": "New tech and tools for retailers to succeed in an agentic shopping era",
+    "url": "https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/",
+    "source_type": "company-announcement",
+    "themes": [
+      "retailer-impact",
+      "tech-capability",
+      "brand-strategy"
+    ],
+    "date_published": "2026",
+    "date_collected": "2026-09-15",
+    "publisher": "Google",
+    "summary": "Google details its full suite of agentic commerce infrastructure for retailers: the Universal Commerce Protocol, Business Agent (a virtual sales associate on Search), and Google's first Universal Cart enabling payment directly in AI Mode. Frames the shift from 'search and click' to 'purpose and execute' and positions Google Merchant Center as the foundation for agent discoverability.",
+    "key_quote": "",
+    "relevance_to_sharp": "Google explicitly positioning its Merchant Center as the agent-era replacement for shelf placement—structured product data in Google's feed is the new physical availability.",
+    "status": "collected"
+  },
+  {
+    "id": "tc-c1-01",
+    "title": "Powering Product Discovery in ChatGPT",
+    "url": "https://openai.com/index/powering-product-discovery-in-chatgpt/",
+    "source_type": "company-announcement",
+    "themes": [
+      "tech-capability",
+      "retailer-impact",
+      "brand-strategy"
+    ],
+    "date_published": "2026-03",
+    "date_collected": "2026-09-15",
+    "publisher": "OpenAI",
+    "summary": "OpenAI's update on ChatGPT commerce strategy: after finding that Instant Checkout lacked sufficient merchant flexibility, OpenAI shifted focus from in-chat checkout to product discovery, listing Target, Sephora, Nordstrom, Lowe's, Best Buy, The Home Depot and Wayfair as ACP-integrated retailers. ChatGPT handles approximately 50 million shopping queries per day.",
+    "key_quote": "",
+    "relevance_to_sharp": "OpenAI's pivot from transaction to discovery is the agent-era equivalent of a retailer deciding it will own the catalogue but not the till: the platform that controls discovery controls which brands get seen.",
+    "status": "collected"
+  },
+  {
+    "id": "tc-c1-02",
+    "title": "American Express Debuts Agentic Commerce Experiences (ACE) Developer Kit and Announces Industry-First Protection for Registered Agent Purchases",
+    "url": "https://www.americanexpress.com/en-us/newsroom/articles/innovation/american-express-debuts-agentic-commerce-experiences--ace--devel.html",
+    "source_type": "company-announcement",
+    "themes": [
+      "tech-capability",
+      "regulatory"
+    ],
+    "date_published": "2026-04-14",
+    "date_collected": "2026-09-15",
+    "publisher": "American Express",
+    "summary": "American Express launches the ACE Developer Kit providing agent registration, account enablement, intent intelligence, payment credentials and cart context services, backed by Amex Agent Purchase Protection—the industry's first explicit commitment to extend consumer protections to Card Member purchases made by registered AI agents. Designed to be protocol-interoperable (ACP, UCP, and others).",
+    "key_quote": "",
+    "relevance_to_sharp": "Trust infrastructure—explicit purchase protection for agent-initiated transactions—removes a key consumer objection to delegation, expanding the share of purchases where mental availability cannot intervene.",
+    "status": "collected"
+  },
+  {
+    "id": "tc-c1-03",
+    "title": "Mastercard launches Agent Pay for Machines to unlock super-fast, always-on payments",
+    "url": "https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-launches-agent-pay-for-machines.html",
+    "source_type": "company-announcement",
+    "themes": [
+      "tech-capability",
+      "retailer-impact"
+    ],
+    "date_published": "2026-06",
+    "date_collected": "2026-09-15",
+    "publisher": "Mastercard",
+    "summary": "Mastercard launches Agent Pay for Machines, a platform enabling AI agents and software systems to make secure automated payments across cards, bank accounts and stablecoins, with agent permissions and credentials recorded on the Polygon, Solana and Base blockchains; more than 30 companies including Coinbase, Stripe and Adyen have joined. Simultaneously completes first live authenticated agentic transactions in Singapore and Malaysia.",
+    "key_quote": "",
+    "relevance_to_sharp": "Extends the 'available to agents' definition to machine-to-machine payments across blockchains—a form of physical availability that has no human shelf analogue at all.",
+    "status": "collected"
+  },
+  {
+    "id": "tc-c1-04",
+    "title": "Agent-to-Agent Finance: Blockchain Payments and Trust Infrastructure for Autonomous AI Agents",
+    "url": "https://arxiv.org/html/2607.00245v1",
+    "source_type": "academic",
+    "themes": [
+      "tech-capability",
+      "regulatory"
+    ],
+    "date_published": "2026-07",
+    "date_collected": "2026-09-15",
+    "publisher": "arXiv",
+    "summary": "Academic paper examining how AI agents can execute financial transactions autonomously using blockchain rails, proposing trust infrastructure that lets agents prove identity, authorisation and intent to counterparties without human intervention for each transaction. Reviews tokenized credentials, smart-contract escrow, and verifiable compute as components of an agent-to-agent finance stack.",
+    "key_quote": "",
+    "relevance_to_sharp": "Provides the academic underpinning for machine-readable trust: the paper formalises how agents establish credibility to transact, the technical prerequisite for any brand to be 'physically available' to an agent.",
+    "status": "collected"
+  },
+  {
+    "id": "tc-c1-05",
+    "title": "Agentic Commerce: Your European Strategy & Payments FAQ",
+    "url": "https://www.mollie.com/gb/growth/agentic-commerce-european-payments-faq",
+    "source_type": "analysis",
+    "themes": [
+      "tech-capability",
+      "regulatory",
+      "retailer-impact"
+    ],
+    "date_published": "2026",
+    "date_collected": "2026-09-15",
+    "publisher": "Mollie",
+    "summary": "Mollie addresses European merchants' key questions about agentic commerce payments: how to become ACP-ready, how the Agent Payments Protocol differs, European regulatory requirements, and Mollie's strategy of one integration supporting multiple agent protocols. Notes the gap between theoretical agent capabilities and what European payment stacks and banks are actually ready for.",
+    "key_quote": "",
+    "relevance_to_sharp": "European payments perspective showing that 'physical availability' for agents requires not just a product feed but protocol compliance, and that the gap between protocols differs by region—the 'shelf' is not globally uniform.",
+    "status": "collected"
+  },
+  {
+    "id": "rg-c1-01",
+    "title": "How Agentic AI Will Reshape Payments",
+    "url": "https://www.imf.org/en/publications/imf-notes/issues/2026/04/22/how-agentic-ai-will-reshape-payments-575560",
+    "source_type": "research-report",
+    "themes": [
+      "regulatory",
+      "tech-capability"
+    ],
+    "date_published": "2026-04-22",
+    "date_collected": "2026-09-15",
+    "publisher": "International Monetary Fund",
+    "summary": "IMF working note using a three-layer framework (intent, authorisation, settlement) to map how agentic AI may reshape global payment systems. Identifies efficiency gains and new financial-stability risks from probabilistic AI behaviour meeting deterministic payment infrastructure; warns of systemic risks if agent-initiated transactions scale before adequate oversight frameworks exist.",
+    "key_quote": "",
+    "relevance_to_sharp": "The IMF framing of intent/authorisation/settlement maps precisely onto the stages at which brand signals (a form of 'intent') either survive or get filtered out by an agent—a macro-financial treatment of the same availability problem.",
+    "status": "collected"
+  },
+  {
+    "id": "rg-c1-02",
+    "title": "Regulating payments when it's AI agents spending the money",
+    "url": "https://www.weforum.org/stories/artificial-intelligence/how-do-we-regulate-payments-when-its-ai-agents-spending-the-money/",
+    "source_type": "analysis",
+    "themes": [
+      "regulatory",
+      "tech-capability"
+    ],
+    "date_published": "2026",
+    "date_collected": "2026-09-15",
+    "publisher": "World Economic Forum",
+    "summary": "WEF analysis notes that the Singapore IMDA Model AI Governance Framework for Agentic AI (January 2026) is the first comprehensive governance framework for autonomous agents, requiring each agent to carry a verifiable digital identity and an audit trail; maps the liability gap in existing card-network dispute processes that were built around buyer-versus-seller, not agent-versus-seller.",
+    "key_quote": "",
+    "relevance_to_sharp": "Highlights that the liability architecture for agent transactions is still missing: until disputes can be resolved, consumer willingness to fully delegate is capped—the trust gap IS the availability gap.",
+    "status": "collected"
+  },
+  {
+    "id": "rg-c1-03",
+    "title": "Agentic payments: HM Treasury's July 2026 consultation",
+    "url": "https://bratby.law/agentic-payments-accountability-gap/",
+    "source_type": "analysis",
+    "themes": [
+      "regulatory"
+    ],
+    "date_published": "2026-07",
+    "date_collected": "2026-09-15",
+    "publisher": "Bratby Law",
+    "summary": "Legal analysis of HM Treasury's July 2026 consultation proposing a major overhaul of UK payments regulation to accommodate agentic AI, including a 'Know Your Agent' standard and an agentic payments trust framework. Notes that UK Payment Services Regulations 2017 require a payer to consent to each specific transaction—a model an autonomous agent breaks—and that the consultation closes 6 October 2026.",
+    "key_quote": "",
+    "relevance_to_sharp": "The UK government explicitly identifying the consent model as broken for agent transactions is the regulatory confirmation that the rules of the game are being rewritten—the keynote's core premise.",
+    "status": "collected"
+  },
+  {
+    "id": "rg-c1-04",
+    "title": "Agentic Commerce's Next Phase Hinges On Closing The Consumer Trust Gap",
+    "url": "https://www.forbes.com/sites/forrester/2026/02/02/agentic-commerces-next-phase-hinges-on-closing-the-consumer-trust-gap/",
+    "source_type": "analysis",
+    "themes": [
+      "regulatory",
+      "consumer-behavior",
+      "brand-strategy"
+    ],
+    "date_published": "2026-02-02",
+    "date_collected": "2026-09-15",
+    "publisher": "Forrester (via Forbes)",
+    "summary": "Forrester argues the primary barrier to agentic commerce scaling is not technology but consumer trust: a majority of US consumers believe brands will market to their agents but few trust those agents to act on their behalf even for routine purchases. Identifies spending caps, instant revocation, and transparent audit trails as the non-negotiables consumers require before they will delegate.",
+    "key_quote": "",
+    "relevance_to_sharp": "Frames trust as the precondition for delegation—until consumers trust agents to act, mental availability still operates, but once trust is established the brand must win through the agent's filter, not the consumer's memory.",
+    "status": "collected"
   }
 ]

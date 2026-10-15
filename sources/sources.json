@@ -866,5 +866,299 @@
     "key_quote": "",
     "relevance_to_sharp": "A concrete, on-screen example of physical availability being rebuilt as a protocol: the agent completes the purchase inside the conversation, so the merchant's catalogue has to already be machine-readable before the moment a shopper asks.",
     "status": "collected"
+  },
+  {
+    "id": "cb-c1-01",
+    "title": "The State Of Agentic Commerce In Mid-2026",
+    "url": "https://www.forrester.com/blogs/the-state-of-agentic-commerce-in-mid-2026/",
+    "source_type": "analysis",
+    "themes": [
+      "consumer-behavior",
+      "retailer-impact"
+    ],
+    "date_published": "2026-07",
+    "date_collected": "2026-10-15",
+    "publisher": "Forrester",
+    "summary": "Forrester's mid-year reality check finds that most 'agentic' shopping experiences in mid-2026 are still conversational discovery and recommendation tools; humans still drive purchase decisions and checkout in the vast majority of cases, and very few consumers allow agents to complete tasks or purchases without direct oversight.",
+    "key_quote": "",
+    "relevance_to_sharp": "Confirms the current boundary of delegation: Sharp's human decision-maker has not yet been displaced at checkout, though discovery and consideration are already being mediated by agents.",
+    "status": "collected"
+  },
+  {
+    "id": "cb-c1-02",
+    "title": "Europe's Agentic Commerce Moment: Decision Influence Is Here; Execution Is Coming",
+    "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/europes-agentic-commerce-moment-decision-influence-is-here-execution-is-coming",
+    "source_type": "research-report",
+    "themes": [
+      "consumer-behavior",
+      "brand-strategy"
+    ],
+    "date_published": "2026-03",
+    "date_collected": "2026-10-15",
+    "publisher": "McKinsey & Company",
+    "summary": "Based on a survey of 749 European consumers (France, Germany, UK), McKinsey finds 84% use AI tools in daily life and 38% use them when shopping, primarily for comparing brands, prices, and reviews (63%), learning about a category (55%), and product discovery (46%); execution and checkout remain largely human. Brand loyalty is expected to evolve rather than disappear.",
+    "key_quote": "",
+    "relevance_to_sharp": "European data mapping exactly where agent influence currently displaces the human: at the top of the funnel (discovery, comparison) where Sharp's distinctive assets used to operate, not yet at checkout.",
+    "status": "collected"
+  },
+  {
+    "id": "cb-c1-03",
+    "title": "AI Traffic Trends Report (August 2026)",
+    "url": "https://business.adobe.com/assets/pdfs/resources/sdk/ai-traffic-trends-report-august-2026/ai-traffic-trends-report-2026-08-19.pdf",
+    "source_type": "research-report",
+    "themes": [
+      "consumer-behavior",
+      "retailer-impact"
+    ],
+    "date_published": "2026-08-19",
+    "date_collected": "2026-10-15",
+    "publisher": "Adobe Digital Insights",
+    "summary": "Adobe Analytics data covering more than one trillion visits to US retail sites: AI-driven traffic grew 393% year-on-year in Q1 2026, with AI-referred visitors converting at a 60% higher rate and generating 53% more revenue per visit than non-AI traffic by July 2026; roughly 25% of homepage content and 34% of category pages remain unoptimized for AI agents.",
+    "key_quote": "",
+    "relevance_to_sharp": "Quantifies the new 'shelf' economics: AI-referred traffic converts far better, meaning brands that are machine-readable and agent-discoverable already enjoy a measurable availability premium over those that are not.",
+    "status": "collected"
+  },
+  {
+    "id": "br-c1-01",
+    "title": "When People Never See Your App: Designing Brands for the Agentic Economy",
+    "url": "https://www.bain.com/insights/when-people-never-see-your-app-designing-brands-for-the-agentic-economy/",
+    "source_type": "analysis",
+    "themes": [
+      "brand-strategy",
+      "consumer-behavior"
+    ],
+    "date_published": "2026",
+    "date_collected": "2026-10-15",
+    "publisher": "Bain & Company",
+    "summary": "Bain argues that as AI agents increasingly act on consumers' behalf, brands face a new strategic challenge: winning in a world where their traditional front-end interface — the app, the website, the shelf — may never be seen by the end consumer. Brands must design for agent legibility, not just human experience.",
+    "key_quote": "",
+    "relevance_to_sharp": "Directly extends Sharp's physical availability question: if consumers never see the brand's site or shelf, availability must be rebuilt as machine-readable identity, not physical or visual presence.",
+    "status": "collected"
+  },
+  {
+    "id": "br-c1-02",
+    "title": "Rewiring Demand Generation in the Age of AI Agents",
+    "url": "https://www.bain.com/insights/rewiring-demand-generation-in-age-of-AI-agents/",
+    "source_type": "analysis",
+    "themes": [
+      "brand-strategy",
+      "consumer-behavior"
+    ],
+    "date_published": "2026-05-08",
+    "date_collected": "2026-10-15",
+    "publisher": "Bain & Company",
+    "summary": "Bain finds that AI agents are collapsing the marketing funnel as shoppers use mission-based prompts and algorithms take over discovery, comparison, and purchase; 30–45% of US consumers use AI for shopping support and 64% have used or are open to using AI to complete a purchase. Agents favor concrete, review-backed attributes over broad brand equity.",
+    "key_quote": "",
+    "relevance_to_sharp": "Brand equity as traditionally built through mental availability does not transfer to agents; concrete, review-backed attributes are the new entry criteria — structural displacement of Sharp's salience-based model.",
+    "status": "collected"
+  },
+  {
+    "id": "br-c1-03",
+    "title": "Meta, Sierra and Partners Preview Personal Agent Protocol (PAP)",
+    "url": "https://www.allthingsmuse.com/articles/meta-sierra-personal-agent-protocol/",
+    "source_type": "news",
+    "themes": [
+      "brand-strategy",
+      "tech-capability",
+      "regulatory"
+    ],
+    "date_published": "2026-10-06",
+    "date_collected": "2026-10-15",
+    "publisher": "All Things Muse",
+    "summary": "Meta and Sierra published a draft Personal Agent Protocol (PAP) on October 6, 2026, backed by Walmart, Shopify, Stripe, and 35+ design partners. The OAuth-based open standard defines tiered read/write access for AI agents to interact with merchants and platforms, with each purchase still requiring consumer approval. OpenAI joined as a design partner on October 9.",
+    "key_quote": "",
+    "relevance_to_sharp": "A nascent open standard for how agents access brand and merchant data: whoever defines the protocol defines the new rules of availability — the PAP is an attempt to codify what 'being findable' means for agents.",
+    "status": "collected"
+  },
+  {
+    "id": "rt-c1-01",
+    "title": "Agentic AI in Retail: How Autonomous Shopping Is Redefining the Customer Journey",
+    "url": "https://www.bain.com/insights/agentic-ai-in-retail-how-autonomous-shopping-redefining-customer-journey/",
+    "source_type": "research-report",
+    "themes": [
+      "retailer-impact",
+      "consumer-behavior",
+      "brand-strategy"
+    ],
+    "date_published": "2026-05-14",
+    "date_collected": "2026-10-15",
+    "publisher": "Bain & Company",
+    "summary": "Bain's retail-focused brief finds that third-party AI agents are already reshaping the top of the funnel, while consumers trust retailer-owned agents three times more than third-party ones to complete transactions. The report recommends retailers build on-site agents, partner with third-party agents where shoppers already are, and protect control over data, fulfillment, and checkout.",
+    "key_quote": "third-party 'objective' agents reshaping the top of the funnel, while retailer-owned agents command far greater consumer trust for execution",
+    "relevance_to_sharp": "The 'shelf' is now a fragmented agent ecosystem with a new trust hierarchy: who owns the agent determines who consumers trust with physical availability — a structural change Sharp's model never contemplated.",
+    "status": "collected"
+  },
+  {
+    "id": "rt-c1-02",
+    "title": "Amazon Blocks Meta's New Muse AI Agent from Shopping on Amazon.com",
+    "url": "https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/",
+    "source_type": "news",
+    "themes": [
+      "retailer-impact",
+      "regulatory",
+      "tech-capability"
+    ],
+    "date_published": "2026-09-21",
+    "date_collected": "2026-10-15",
+    "publisher": "Forbes",
+    "summary": "Amazon blocked Meta's Muse AI shopping agent from its platform on September 20, 2026, citing failure to identify itself as AI and alleged credential capture. The block protects Amazon's $68B advertising business, which depends on human browsing. Amazon also updated robots.txt to block new AI agents from Google; Shopify simultaneously moved the opposite direction, opening checkout to browser-based agents.",
+    "key_quote": "",
+    "relevance_to_sharp": "Physical availability is now fought at the access-control layer: Amazon's block is the digital equivalent of locking a competitor's brand out of the store — but the 'store' is now an API and robots.txt file.",
+    "status": "collected"
+  },
+  {
+    "id": "rt-c1-03",
+    "title": "Agentic Commerce: The Future of B2B Commerce",
+    "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/articles/b2b-agentic-commerce.html",
+    "source_type": "analysis",
+    "themes": [
+      "retailer-impact",
+      "consumer-behavior",
+      "tech-capability"
+    ],
+    "date_published": "2026-06-26",
+    "date_collected": "2026-10-15",
+    "publisher": "Deloitte",
+    "summary": "Deloitte's B2B perspective describes agent-to-agent commerce as the next frontier: 38% of B2B buyers already use agentic AI in purchasing versus only 24% of suppliers using it in sales. Buyers are adopting faster than sellers, and collaborative multi-agent systems are beginning to research, negotiate, buy, and sell on behalf of enterprises.",
+    "key_quote": "The future of B2B commerce is agent-to-agent commerce, where collaborative multiagent systems research, negotiate, buy, and sell on behalf of enterprises.",
+    "relevance_to_sharp": "In B2B, machine-to-machine negotiation entirely replaces the human relationship layer through which brand salience and distinctive assets once operated — Sharp's laws have no mechanism to act when neither party is human.",
+    "status": "collected"
+  },
+  {
+    "id": "rt-c1-04",
+    "title": "Shopify Opens Checkout to Browser-Based AI Agents",
+    "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+    "source_type": "news",
+    "themes": [
+      "retailer-impact",
+      "tech-capability"
+    ],
+    "date_published": "2026-09-28",
+    "date_collected": "2026-10-15",
+    "publisher": "TechCrunch",
+    "summary": "Shopify extended WebMCP support to cover checkout on September 28, 2026, giving browser-based AI agents three new tools (get_checkout, update_checkout, complete_checkout) to inspect, modify, and complete purchases on merchant sites without screenshots or scraping. The move contrasts with Amazon and Adidas blocking agents; consumer must still approve the final purchase.",
+    "key_quote": "",
+    "relevance_to_sharp": "Physical availability now requires API integration at checkout level — Shopify's move is the infrastructure decision that determines which brands and merchants can be 'bought' by agents at all.",
+    "status": "collected"
+  },
+  {
+    "id": "rg-c1-01",
+    "title": "Agentic AI and Consumer Protection",
+    "url": "https://cerre.eu/publications/agentic-ai-and-consumer-protection/",
+    "source_type": "academic",
+    "themes": [
+      "regulatory",
+      "consumer-behavior"
+    ],
+    "date_published": "2026-07",
+    "date_collected": "2026-10-15",
+    "publisher": "CERRE (Centre on Regulation in Europe)",
+    "summary": "EU policy paper by Christoph Busch arguing that EU consumer law was designed around human decision-makers and breaks down when AI agents mediate purchases: disclosure rules assume human attention, explicit payment consent requirements become hard to satisfy via APIs, merchant-steered agents may push own products without disclosure, and prompt injection has no existing legal defence analogous to dark-pattern rules.",
+    "key_quote": "",
+    "relevance_to_sharp": "The EU regulatory gap mirrors the marketing-theory gap this repo addresses: both bodies of law and marketing doctrine assumed a human buyer, and neither fully accommodates the agent intermediary.",
+    "status": "collected"
+  },
+  {
+    "id": "rg-c1-02",
+    "title": "Complying with Consumer Law When Using AI Agents",
+    "url": "https://www.gov.uk/government/publications/complying-with-consumer-law-when-using-ai-agents",
+    "source_type": "analysis",
+    "themes": [
+      "regulatory",
+      "consumer-behavior"
+    ],
+    "date_published": "2026-03-09",
+    "date_collected": "2026-10-15",
+    "publisher": "UK Competition and Markets Authority (CMA)",
+    "summary": "The UK CMA's first formal guidance on agentic AI and consumer law, published March 9, 2026: businesses are responsible for the conduct of their AI agents in the same way they are responsible for employees, even when the agent was designed or provided by a third party. Penalties of up to 10% of global annual turnover apply under the DMCC Act 2024.",
+    "key_quote": "If an AI agent you use does something illegal, you are responsible.",
+    "relevance_to_sharp": "The first national regulator to formally assign liability for agent behaviour to the business deploying it — establishes that brands cannot outsource legal responsibility when agents act in their name.",
+    "status": "collected"
+  },
+  {
+    "id": "rg-c1-03",
+    "title": "Mastercard Advances Agentic Commerce with New Trust and Intelligence Services",
+    "url": "https://thepaypers.com/payments/news/mastercard-expands-agent-pay-with-trust-and-intelligence-services",
+    "source_type": "news",
+    "themes": [
+      "regulatory",
+      "tech-capability"
+    ],
+    "date_published": "2026-09-30",
+    "date_collected": "2026-10-15",
+    "publisher": "The Paypers",
+    "summary": "Mastercard launched trust and intelligence services for Agent Pay on September 30, 2026: a probability score estimating whether a given transaction was AI-initiated (rolling out in US testing), plus partnerships with Cloudflare for privacy-preserving web/payment signal visibility and Skyfire for Know-Your-Agent (KYA) identity verification, forming the intelligence layer of the Agent Pay Trust Framework.",
+    "key_quote": "",
+    "relevance_to_sharp": "Trust verification for AI agents is becoming a gated infrastructure layer: a brand or merchant must be accessible to verified, scored agents — machine-readable trust is the new prerequisite for physical availability at the payment rail.",
+    "status": "collected"
+  },
+  {
+    "id": "tc-c1-01",
+    "title": "Visa Partners with OpenAI to Power the Next Generation of AI Commerce",
+    "url": "https://investor.visa.com/news/news-details/2026/Visa-Partners-with-OpenAI-to-Power-the-Next-Generation-of-AI-Commerce/default.aspx",
+    "source_type": "company-announcement",
+    "themes": [
+      "tech-capability",
+      "regulatory"
+    ],
+    "date_published": "2026-06-10",
+    "date_collected": "2026-10-15",
+    "publisher": "Visa",
+    "summary": "Announced at Visa Payments Forum on June 10, 2026: Visa integrates its global network, tokenized credentials, real-time authorization, and fraud monitoring into OpenAI experiences, allowing AI agents to make payments within user-defined spending limits, merchant category restrictions, and approval requirements. Future scope includes enterprise use cases such as Codex agents buying developer services autonomously.",
+    "key_quote": "Transactions will use tokenized Visa credentials and real-time authorization and fraud monitoring.",
+    "relevance_to_sharp": "The card network embedding payment rails into the AI platform defines the new 'point of purchase': physical availability requires being reachable within the network's agent-payment layer, not just on a retailer's shelf.",
+    "status": "collected"
+  },
+  {
+    "id": "tc-c1-02",
+    "title": "Mastercard Unveils Agent Pay for Machines (AP4M) for Autonomous AI Transactions",
+    "url": "https://www.theblock.co/post/404288",
+    "source_type": "news",
+    "themes": [
+      "tech-capability",
+      "retailer-impact"
+    ],
+    "date_published": "2026-06-10",
+    "date_collected": "2026-10-15",
+    "publisher": "The Block",
+    "summary": "Mastercard launched Agent Pay for Machines (AP4M) on June 10, 2026, a payments layer supporting AI-agent-to-AI-agent and machine-to-machine transactions across cards, bank accounts, and stablecoins. Features include agent credentialing, programmable spending permissions, and microtransaction support. 30+ partners at launch including Coinbase, Stripe, Adyen, Cloudflare, and Ripple.",
+    "key_quote": "",
+    "relevance_to_sharp": "Stablecoin and programmable microtransaction rails extend agent-era physical availability to fully autonomous machine-to-machine commerce, a plane entirely outside any human brand-salience mechanism.",
+    "status": "collected"
+  },
+  {
+    "id": "tc-c1-03",
+    "title": "What the 2026 Hype Cycle for Agentic AI Reveals",
+    "url": "https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai",
+    "source_type": "research-report",
+    "themes": [
+      "tech-capability",
+      "brand-strategy"
+    ],
+    "date_published": "2026-04-02",
+    "date_collected": "2026-10-15",
+    "publisher": "Gartner",
+    "summary": "Gartner's first Hype Cycle dedicated to Agentic AI places it at the Peak of Inflated Expectations, covering 30+ innovations from MCP and multiagent systems to agent governance, security, and FinOps. Only 17% of organizations have deployed agents while 60%+ intend to within two years; governance, security, and cost are rising enterprise concerns.",
+    "key_quote": "Technologies such as agentic AI governance, agentic AI security and FinOps for agentic AI indicate rising enterprise concern about accountability, control and economic sustainability.",
+    "relevance_to_sharp": "The governance and trust gap at the Peak of Inflated Expectations signals the infrastructure trough before agents become mainstream brand-commerce surfaces — the question of when Sharp's laws fully need replacing is a governance-adoption question as much as a technology one.",
+    "status": "collected"
+  },
+  {
+    "id": "tc-c1-04",
+    "title": "Gartner Predicts AI Agents Will Outnumber Sellers 10 to 1 by 2028",
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2026-07-28-gartner-predicts-ai-agents-will-outnumber-sellers-10-to-1-by-2028-yet-fewer-than-40-percent-of-sellers-will-say-agents-improved-productivity",
+    "source_type": "research-report",
+    "themes": [
+      "tech-capability",
+      "brand-strategy",
+      "retailer-impact"
+    ],
+    "date_published": "2026-07-28",
+    "date_collected": "2026-10-15",
+    "publisher": "Gartner",
+    "summary": "Gartner survey of 210 CSOs and senior sales executives predicts AI selling agents will outnumber human sellers 10 to 1 by 2028, yet fewer than 40% of sellers will say agents improved productivity, citing fragmented systems that spread their dysfunction through agents.",
+    "key_quote": "AI agents will outnumber sellers 10 to 1 by 2028.",
+    "relevance_to_sharp": "When AI agents handle the selling side as well as the buying side, the brand-relationship and salience-building function of human sales disappears entirely — Sharp's mental availability has no channel left to operate through.",
+    "status": "collected"
   }
 ]
